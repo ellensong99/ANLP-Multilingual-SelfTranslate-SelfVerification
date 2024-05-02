@@ -1,0 +1,2805 @@
+*****************************
+*****************************
+setup data loader ...
+*************************
+1st data
+Q: Kyle spends $19.50 on a bestselling book from last year, paying 75% of the original price. What was the original price of the book?
+GT : 26
+True: To find the original price of the book, we can use the formula:
+
+Original price = amount paid / percentage paid
+
+In this case, Kyle paid 75% of the original price, which means he paid 0.75 times the original price. We also know that he paid $19.50 for the book.
+
+Original price = $19.50 / 0.75
+Original price = $26
+
+Therefore, the original price of the book was $26.
+True: Let x be the original price of the book.
+
+If Kyle paid 75% of the original price, then he paid 0.75x for the book.
+
+Given that Kyle spent $19.50 on the book:
+0.75x = $19.50
+x = $19.50 / 0.75
+x = $26
+
+Therefore, the original price of the book was $26.
+True: To find the original price of the book, we can set up a proportion using the price Kyle paid and the percentage he paid relative to the original price.
+
+Let x be the original price of the book.
+
+Kyle paid 75% of the original price, so we can set up the equation:
+
+0.75x = $19.50
+
+Solving for x:
+
+x = $19.50 / 0.75
+x = $26
+
+Therefore, the original price of the book was $26.
+verifier:1 accs:1 
+*************************
+*************************
+2st data
+Q: Vincent can buy a bundle of 3 fresh flowers for $2.50 or a bundle of 2 fresh flowers for $1. If he buys 18 flowers at the better price, how much money does he save?
+GT : 6
+False: To find the better price, we need to determine the unit price of each flower in each bundle.
+
+Bundle of 3 flowers for $2.50:
+Unit price = $2.50/3 = $0.83 per flower
+
+Bundle of 2 flowers for $1:
+Unit price = $1/2 = $0.50 per flower
+
+Since Vincent wants to buy 18 flowers, he can buy them in bundles of 3 for a better price. To get 18 flowers, he would need to buy 6 bundles of 3 flowers for a total cost of:
+6 bundles * $2.50 = $15
+
+If he were to buy 18 flowers in bundles of 2, he would need to buy 9 bundles, for a total cost of:
+9 bundles * $1 = $9
+
+Therefore, Vincent saves:
+$15 - $9 = $6
+
+Vincent saves $6 by buying 18 flowers at the better price.
+False: Vincent saves $3.50.
+Here's the breakdown:
+- Buying 18 flowers in bundles of 3 would cost him $2.50 x 6 = $15.
+- Buying 18 flowers in bundles of 2 would cost him $1 x 9 = $9.
+- Therefore, he saves $15 - $9 = $6.
+- However, he only needs to save enough money to make 18 flowers worth $9, so he only saves $6 - $2.50 = $3.50.
+False: First, let's calculate the cost per flower for each option:
+
+For the bundle of 3 flowers:
+Cost per flower = $2.50 / 3 = $0.83
+
+For the bundle of 2 flowers:
+Cost per flower = $1 / 2 = $0.50
+
+Since Vincent is buying 18 flowers at the better price, he would buy 6 bundles of 3 flowers, which would cost him 6 * $2.50 = $15.00.
+
+If he were to buy 18 flowers in bundles of 2, he would need to buy 9 bundles, which would cost him 9 * $1 = $9.00.
+
+Therefore, Vincent would save $15.00 - $9.00 = $6.00 by buying the bundle of 2 flowers.
+18.0 - 0: Let's first consider the cost of buying 18 flowers at each price:  Bundle of 3 flowers for $X.50: 18 flowers / 3 flowers per bundle = 6 bundles Cost at this price: 6 bundles * $X.50 = $6X  Bundle of X flowers for $1: Cost would be $18  According to the given information, he saves $18. So we can write the equation:  $18 - $6X = $18 $18 - $18 = $6X $0 = $6X X = 0  Therefore, the answer is X = 0.
+3.5 - 0: Let's denote the cost of a bundle of 3 fresh flowers as X.50 and the number of flowers in a bundle as X.   Vincent buys 18 flowers at the better price, so he saves $3.5. This means that the cost of buying 18 flowers at the better price is $3.5 less than buying 18 flowers at the other price.   The cost of buying 18 flowers at the better price is (18/X) * 1. The cost of buying 18 flowers at the other price is (18/3) * X.50.   So, we can write the following equation: (18/X) * 1 = (18/3) * X.50 - 3.5  Solving this equation will give us the answer for X.
+2.0 - 0: Vincent can buy a bundle of 3 flowers for X.50 each or a bundle of X flowers for $1 each. If he buys 18 flowers, he saves $2.00. So, we can write the following equation: <code> 3(X/2) = X  18 = 18X - 2  16 = 18X  X = 16/18  X = 8/9 </code> The answer is 8/9.
+verifier:0 accs:0 
+*************************
+*************************
+3st data
+Q: Christina is planning a birthday party and needs gift bags for each invited guest, which is 0.75 per guest, because 1/4 of the guests do not attend. She invited 16 friends. Each gift bag costs $2. How much money does she need?
+GT : 24
+True: Christina invited 16 friends, but 1/4 of them do not attend, so 16 * 1/4 = 4 friends do not attend.
+This means that only 16 - 4 = 12 friends will attend the party.
+Each guest will receive a gift bag, so Christina needs 12 gift bags.
+Each gift bag costs $2, so Christina will need 12 * $2 = $24 for all the gift bags.
+False: First, we need to calculate how many guests will actually attend the birthday party. Since 1/4 of the guests do not attend, that means 3 out of 16 guests will not be coming.
+
+So, the total number of guests attending the party is 16 - 3 = 13 guests.
+
+Next, we calculate the cost of the gift bags for each guest. Christina needs 0.75 gift bags per guest, so 0.75 x 13 = 9.75 gift bags.
+
+Since she cannot purchase a fraction of a gift bag, she will need to buy 10 gift bags to cover all attending guests.
+
+Therefore, the total cost of the gift bags will be 10 gift bags x $2 per bag = $20. 
+
+So, Christina will need $20 for the gift bags for the birthday party.
+True: First, calculate how many guests will attend the party by subtracting 1/4 of the total guests from the total invites:
+16 guests - (1/4 * 16 guests) = 16 guests - 4 guests = 12 guests
+
+Next, calculate the total cost of the gift bags for each attending guest:
+12 guests * $2 per gift bag = $24
+
+Therefore, Christina will need $24 for the gift bags for the attending guests at her party.
+24.0 - 1: Christina invited 16 friends, but only 1/X of the guests did not attend. So the number of guests who attended the party would be: <code> 16 - (16/X) = 16(1 - 1/X) </code> Christina needs gift bags for each attending guest, and each gift bag costs $2. The total cost of gift bags would be: <code> 2 * 16(1 - 1/X) = 24  32(1 - 1/X) = 24  32 - 32/X = 24  32/X = 32 - 24  32/X = 8  X = 32/8  X = 4 </code> Therefore, the answer is 4.
+20.0 - 0: Christina invited 16 friends, but 1/X of them did not attend. So, the number of guests who attended the party would be 16 - (16/X). Each gift bag costs $2, so the total cost of gift bags would be 2 * (16 - (16/X)) = 20.  Now we can solve for X: 2 * (16 - (16/X)) = 20 32 - 32/X = 20 32 - 20 = 32/X 12 = 32/X X = 32/12 X = 2.67  Therefore, X is approximately 2.67.
+verifier:1 accs:1 
+*************************
+*************************
+4st data
+Q: Wendy feeds each of her chickens 3 cups of a mixed chicken feed containing seeds, mealworms, and vegetables daily to keep them healthy. How many cups of feed does she give in total?
+GT : 20
+False: Wendy gives each of her chickens 3 cups of feed daily, and since she has multiple chickens, she would need to multiply the amount of feed per chicken by the number of chickens she has. If Wendy has 6 chickens, for example, she would be giving a total of 3 cups x 6 chickens = 18 cups of feed daily.
+False: Wendy gives a total of 9 cups of feed daily to her chickens (3 cups x 3 types of ingredients = 9 cups).
+False: Wendy gives a total of 9 cups of feed daily to her chickens (3 cups x 3 ingredients = 9 cups).
+18.0 - 0: Wendy feeds each of her chickens X cups of feed. If she has a total of 18 cups of feed for all her chickens, we can write the equation as: X * number of chickens = total cups of feed X * number of chickens = 18 Since we don't have the number of chickens specified, we cannot determine the exact value of X without that information.
+9.0 - 0: Wendy feeds each chicken X cups of feed daily, and she has a total of 9 cups of feed for all her chickens. Therefore: <code>X * number of chickens = total cups of feed X * 1 = 9 X = 9 </code> The answer is 9.
+verifier:0 accs:0 
+*************************
+*************************
+5st data
+Q: A merchant is deciding between two purchasing plans: $5,000 worth of jewelry and $8,000 worth of electronics. His financial advisor predicts that the jewelry market will rise by 2.5% and the electronics market will rise by 1.2% within the same month. If the merchant aims to maximize his profit by the end of the month, what will be his profit?
+GT : 125
+False: For the jewelry:
+2.5% of $5,000 = $125 increase
+$5,000 + $125 = $5,125
+
+For the electronics:
+1.2% of $8,000 = $96 increase
+$8,000 + $96 = $8,096
+
+Total profit = $5,125 (jewelry) + $8,096 (electronics) - $5,000 (initial investment for jewelry) - $8,000 (initial investment for electronics) 
+Total profit = $13,221 - $13,000
+Total profit = $221
+
+Therefore, the merchant's profit at the end of the month would be $221.
+False: To calculate the profit from each purchasing plan, we need to calculate the potential market value of each item after the predicted increases.
+
+For the jewelry:
+$5,000 * 1.025 = $5,125
+
+For the electronics:
+$8,000 * 1.012 = $8,096
+
+Now we can calculate the profit from each plan:
+Profit from jewelry = $5,125 - $5,000 = $125
+Profit from electronics = $8,096 - $8,000 = $96
+
+To maximize his profit, the merchant should purchase the jewelry as it will result in a higher profit of $125.
+
+Therefore, the merchant's profit would be $125 if he decides to purchase $5,000 worth of jewelry.
+False: First, let's calculate the predicted market value of the jewelry and electronics after the predicted increases:
+
+Jewelry market value after increase = $5,000 + ($5,000 * 2.5%) = $5,000 + $125 = $5,125
+Electronics market value after increase = $8,000 + ($8,000 * 1.2%) = $8,000 + $96 = $8,096
+
+Next, let's calculate the profit for each item:
+
+Profit from jewelry = $5,125 - $5,000 = $125
+Profit from electronics = $8,096 - $8,000 = $96
+
+Therefore, the total profit from both items will be:
+
+Total profit = $125 + $96 = $221
+
+So, the merchant's profit at the end of the month will be $221.
+221.0 - 0: To calculate the profit from the jewelry investment: Profit from jewelry = $5,000 * 2.5% = $125  To calculate the profit from the electronics investment: Profit from electronics = $8,000 * 1.2% = $96  Total profit = Profit from jewelry + Profit from electronics = $125 + $96 = $221  Therefore, the merchant's profit at the end of the month is $221. The answer for 'X' is $221.
+5000.0 - 0: The profit from the jewelry market rising by 2.5% would be: 5000 * 0.025 = $125  The profit from the electronics market rising by 1.2% would be: 8000 * 0.012 = $96  Therefore, the total profit would be: 125 + 96 = $221  Since the merchant aims to maximize his profit to be $5000, the answer for 'X' should be: 5000 - 221 = $4779  The answer is $4779.
+verifier:0 accs:0 
+*************************
+*************************
+6st data
+Q: Janet bought a brooch for her daughter. She paid $500 for the materials and $800 for the jeweler's fee to make the brooch. Afterwards, she paid 10% of the total amount for insurance on the brooch. How much did she pay in total?
+GT : 1430
+True: First, we add the cost of materials and jeweler's fee: $500 + $800 = $1300
+Then, we calculate 10% of the total amount: 0.1 * $1300 = $130
+Finally, we add the insurance cost to the total amount: $1300 + $130 = $1430
+Janet paid a total of $1430 for the brooch.
+True: The total cost of the brooch is the sum of the materials cost, jeweler's fee, and insurance cost.
+
+Materials cost: $500
+Jeweler's fee: $800
+
+Total cost before insurance: $500 + $800 = $1300
+
+Insurance cost (10% of $1300): $1300 * 0.10 = $130
+
+Total cost: $1300 + $130 = $1430
+
+Janet paid a total of $1430 for the brooch.
+True: Total cost = materials cost + jeweler's fee + insurance fee
+Total cost = $500 + $800 + 10% of ($500 + $800)
+
+Total cost = $500 + $800 + 10% * ($500 + $800)
+Total cost = $500 + $800 + 0.1 * ($500 + $800)
+Total cost = $500 + $800 + 0.1 * $1300
+Total cost = $500 + $800 + $130
+Total cost = $1430
+
+Therefore, Janet paid a total of $1430 for the brooch.
+verifier:1 accs:1 
+*************************
+*************************
+7st data
+Q: Gloria finds a pair of boots within her shoe budget at a store. However, she must choose between the boots and two pairs of high heels, which together cost $5 less than the boots. If one pair of high heels costs $33 and the other pair costs twice as much, what is the price of the boots?
+GT : 104
+True: Let x be the price of the boots.
+
+The total cost of the two pairs of high heels is $33 + $66 = $99.
+
+According to the information given, the total cost of the high heels is $5 less than the price of the boots, so we can write the equation:
+
+$99 = x - $5
+
+Solving for x:
+
+x = $99 + $5
+x = $104
+
+Therefore, the price of the boots is $104.
+True: Let's say the price of the boots is B.
+
+We know that the total cost of the two pairs of high heels is $5 less than the price of the boots, so:
+
+33 + 2x = B - 5
+
+Substitute the value of B from the first equation into the second equation:
+
+33 + 2x = B - 5
+33 + 2x = B - 5
+
+Solve for x:
+
+33 + 2x = B - 5
+2x = B - 38
+
+Now substitute the values of the high heels back into the equation:
+
+2x = B - 38
+2(33) = B - 38
+66 = B - 38
+B = 66 + 38
+B = 104
+
+Therefore, the price of the boots is $104.
+True: Let's denote the price of the boots as B. 
+
+We know that the total cost of the high heels is $5 less than the cost of the boots, so:
+(33 + 2 * 33) = B - 5
+99 = B - 5
+B = 104
+
+Therefore, the price of the boots is $104.
+verifier:1 accs:1 
+*************************
+*************************
+8st data
+Q: In a neighborhood, the number of pet rabbits is 12 less than the total number of pet dogs and cats. If the ratio of cats to dogs is 2 to 1 and there are 60 dogs, how many pets are there in total in the community?
+GT : 348
+True: First, we need to find the number of cats in the neighborhood. Since the ratio of cats to dogs is 2 to 1 and there are 60 dogs, there would be 2 cats for every dog, totaling 120 cats.
+
+The total number of dogs and cats in the neighborhood would be 60 (dogs) + 120 (cats) = 180.
+
+Since the number of pet rabbits is 12 less than the total number of dogs and cats, there would be 180 - 12 = 168 rabbits.
+
+Therefore, the total number of pets in the community is 60 (dogs) + 120 (cats) + 168 (rabbits) = 348 pets.
+True: If there are 60 dogs in the neighborhood, and the ratio of cats to dogs is 2 to 1, then there are 60 * 2 = 120 cats in the neighborhood.
+
+The total number of pet dogs and cats is 60 (dogs) + 120 (cats) = 180.
+
+Since the number of pet rabbits is 12 less than the total number of pet dogs and cats, there are 180 - 12 = 168 pet rabbits.
+
+Therefore, the total number of pets in the community is 60 (dogs) + 120 (cats) + 168 (rabbits) = 348 pets.
+False: First, we need to find the number of cats in the neighborhood. Since the ratio of cats to dogs is 2 to 1, there are 2 cats for every 1 dog. So for 60 dogs, there are 2 * 60 = 120 cats.
+
+Next, we can find the total number of dogs and cats in the neighborhood by adding them together: 60 dogs + 120 cats = 180 pets.
+
+Since the number of rabbits is 12 less than the total number of cats and dogs, we can find the number of rabbits by subtracting 12 from the total number of pets: 180 pets - 12 rabbits = 168 pets.
+
+Therefore, there are 168 pets in total in the community.
+348.0 - 1: To solve for 'X', we first need to find the total number of cats and dogs in the neighborhood. Since the ratio of cats to dogs is 2 to 'X' and there are 60 dogs, we can set up the following equation: <code> Cats = 2X  Dogs = 60  Total pets = Cats + Dogs  Total pets = 2X + 60 </code>  Given that the total number of pets in the community is 348, we can set up another equation: <code> Total pets = 348  2X + 60 = 348  2X = 288  X = 144 </code>  The answer is 144.
+168.0 - 2: Let's break down the given information:  1. Number of pet rabbits = Number of pet dogs + Number of pet cats - 2 (X is 2 less than the total number of dogs and cats) 2. Ratio of cats to dogs = 2 to X 3. Number of dogs = 60 4. Total number of pets = 168  We can set up the following equations based on the information:  1. Number of pet rabbits = 60 (number of dogs) + Y (number of cats) - 2 2. Y = 2X (ratio of cats to dogs) 3. 60 + Y + 60 - 2 = 168 (total number of pets)  Now, let's solve for X: Substitute Y = 2X into the first equation: 60 + 2X + 60 - 2 = 168 2X + 118 = 168 2X = 50 X = 25  Therefore, the answer is X = 25.
+verifier:0 accs:1 
+*************************
+*************************
+9st data
+Q: Tracy uses a 4-foot long metal wire to support tomatoes in her garden. The wire is cut into 6-inch pieces. How many pieces does she get?
+GT : 8
+True: There are 8 pieces in total. 
+
+To find the number of pieces Tracy gets, first convert the length of the wire from feet to inches:
+4 feet = 4 feet x 12 inches/foot = 48 inches
+
+Then, divide the total length of the wire by the length of each piece:
+48 inches / 6 inches/piece = 8 pieces
+
+Tracy gets 8 pieces in total.
+True:  Tracy will get  8 pieces from the 4-foot long metal wire. 
+
+To find this, first convert the length of the wire to inches: 4 feet x 12 inches/foot = 48 inches
+Then, divide the total length by the length of each piece: 48 inches/6 inches = 8 pieces
+True: There are 8 pieces in a 4-foot wire when cut in 6-inch pieces. To calculate this, first convert 4 feet to inches by multiplying 4 by 12 inches per foot, which equals 48 inches. Then, divide 48 by 6 (the length of each piece) to get 8 pieces.
+verifier:1 accs:1 
+*************************
+*************************
+10st data
+Q: Billy sells DVDs. He has 8 customers on Tuesday. The first three customers each buy one DVD. The next two customers each buy two DVDs. The last three customers do not buy any DVDs. How many DVDs does Billy sell on Tuesday?
+GT : 7
+False: Billy sells a total of 9 DVDs on Tuesday.
+True: The first three customers buy 1 DVD each, so that's 3 DVDs.
+The next two customers buy 2 DVDs each, so that's 4 DVDs in total.
+Thus, Billy sells 3 + 4 = 7 DVDs on Tuesday.
+False: Billy sells a total of 9 DVDs on Tuesday.
+9.0 - 0: Billy started with X customers on Tuesday. The first three customers bought 1 DVD each, so that's 3 DVDs. The next two customers bought 2 DVDs each, so that's 4 more DVDs. In total, Billy sold 9 DVDs. So, we can write the following equation: X + 3 + 4 = 9 X + 7 = 9 X = 9 - 7 X = 2 The answer is 2.
+7.0 - 0: Billy had X customers on Tuesday. The first three customers each bought one DVD, so that's 3 DVDs. The next two customers each bought two DVDs, so that's 2 x 2 = 4 DVDs. The last three customers did not buy any DVDs. So in total, Billy sold 3 + 4 = 7 DVDs. <code>3 + 4 = 7 X = 7 </code> The answer is 7.
+verifier:0 accs:0 
+*************************
+*************************
+11st data
+Q: Peter plans to go to the movies this week. He always spends $7 on a ticket and $7 on popcorn. If he has $42 this week, how many times can he go to the movies?
+GT : 3
+True: Peter can go to the movies 3 times this week. Each time he goes, he will spend $14 ($7 for the ticket and $7 for popcorn), so with $42, he can afford 3 trips to the movies.
+True: Peter can go to the movies 3 times this week. ($7 ticket + $7 popcorn = $14 per movie, $42 / $14 per movie = 3 times)
+False: Peter can go to the movies 3 times this week. Each trip costs $14 ($7 for the ticket and $7 for popcorn), so 3 trips would cost $42.
+3.0 - 9: Peter plans to go to the movies three times, so he will spend $7 on a ticket and $7 on popcorn each time, making a total of $14 per movie. Therefore, the total amount he needs for three movies is 3 * $14 = $42. Since he has $X this week, we can write the following equation: <code> 42 = X  X = 42 </code> So, the answer is $42.
+42.0 - 0: Peter always spends a total of $14 ($7 on a ticket + $7 on popcorn) each time he goes to the movies. If he can go to the movies 42 times with 'X' dollars, then: X = 42 * 14 X = 588 So, the answer is 588.
+verifier:1 accs:1 
+*************************
+*************************
+12st data
+Q: Alina subscribes to a streaming service, which costs $140 per year. If the streaming company charges her the initial amount for the first half-year, then charges her 10% less for the second half-year, calculate the total amount she pays for the streaming service by the end of the year.
+GT : 1596
+False: Alina pays $140 for the first half-year.
+10% of $140 is 0.10 * $140 = $14.
+So, for the second half-year, she pays $140 - $14 = $126.
+
+Therefore, the total amount she pays for the streaming service by the end of the year is $140 + $126 = $266.
+False: The initial amount for the first half-year is $140. 
+After 10% less for the second half-year, Alina pays 90% of $140, which is 0.90 * $140 = $126.
+Alina pays $140 + $126 = $266 in total for the streaming service by the end of the year.
+False: The initial cost for the first half-year is $140.
+
+The cost for the second half-year is 10% less than $140, which is $140 * 0.10 = $14 less.
+
+Therefore, Alina pays $140 - $14 = $126 for the second half-year.
+
+So, the total amount she pays for the streaming service by the end of the year is $140 + $126 = $266.
+verifier:0 accs:0 
+*************************
+*************************
+13st data
+Q: Jill earns $20 per hour as a teacher and $30 per hour as a cheerleading coach. If she works 50 weeks a year, teaching 35 hours per week and coaching 15 hours per week, what is her annual salary?
+GT : 57500
+True: To calculate Jill's annual salary, we need to figure out how much she makes from teaching and coaching in a year.
+
+From teaching:
+$20/hour * 35 hours/week * 50 weeks/year = $35,000
+
+From coaching:
+$30/hour * 15 hours/week * 50 weeks/year = $22,500
+
+Adding her earnings from teaching and coaching together, Jill's annual salary is:
+$35,000 + $22,500 = $57,500
+True: To calculate Jill's annual salary, we first need to find out how much she earns in a year from each job:
+
+Teaching:
+$20/hour * 35 hours/week * 50 weeks/year = $35,000/year
+
+Coaching:
+$30/hour * 15 hours/week * 50 weeks/year = $22,500/year
+
+Now, we add these two together to find Jill's total annual salary:
+
+$35,000/year + $22,500/year = $57,500/year
+
+Therefore, Jill's annual salary is $57,500.
+True: First, calculate Jill's annual salary from teaching:
+$20/hour * 35 hours/week = $700/week
+$700/week * 50 weeks/year = $35,000/year from teaching
+
+Next, calculate Jill's annual salary from coaching:
+$30/hour * 15 hours/week = $450/week
+$450/week * 50 weeks/year = $22,500/year from coaching
+
+Finally, add her annual salary from teaching and coaching together to find her total annual salary:
+$35,000/year + $22,500/year = $57,500/year
+
+Therefore, Jill's annual salary is $57,500.
+verifier:1 accs:1 
+*************************
+*************************
+14st data
+Q: Sophia is considering a road trip and wants to know how far a tank of gas can take her. Since her last fill-up, she has driven 100 miles, and she needs to add 4 gallons of gas to fill her tank again. According to her car's manual, her gas tank can hold 12 gallons. How far can a tank of gas take Sophia?
+GT : 300
+False: First, we need to find out how much gas Sophia used in the first 100 miles. Since she added 4 gallons to her tank after driving 100 miles, she used 12 - 4 = 8 gallons of gas for 100 miles.
+
+Now, we can calculate how many miles Sophia can drive with a full tank of gas. Since she used 8 gallons for 100 miles, she can drive 100 / 8 = 12.5 miles per gallon.
+
+Therefore, with a full tank of 12 gallons, Sophia can drive 12.5 miles/gallon x 12 gallons = 150 miles on a full tank of gas.
+False: Sophia's car can travel 16 miles per gallon (100 miles / 4 gallons = 25 miles per gallon). Therefore, with a full tank of 12 gallons, she can travel 192 miles (12 gallons x 16 miles per gallon).
+False:  Sophia's car gets 25 miles per gallon (100 miles / 4 gallons). Therefore, with a full tank of 12 gallons, she can drive 300 miles (25 miles per gallon x 12 gallons).
+150.0 - 2: Sophia has already driven 100 miles and needs to add 4 gallons of gas to fill her tank. If her car can go 150 miles on a full tank, then we can set up the following equation: X + 4 gallons = 150 miles Since we know that X gallons + 4 gallons can take her 150 miles, we can simplify the equation: X + 4 = 150 X = 150 - 4 X = 146 So, the answer is 146 gallons.
+16.0 - 3: Sophia started with X gallons in her gas tank. After driving 100 miles, she needed to add 4 gallons to fill up the tank. According to her car's manual, a tank of gas can take her 16.0 miles per gallon. So we can create the following equation: X + 4 (gallons added) = 100 miles / 16.0 miles per gallon X + 4 = 6.25 X = 6.25 - 4 X = 2.25 The answer is 2.25 gallons.
+12.0 - 0: Sophia has driven 100 miles and needs to add 4 gallons of gas to fill her tank. If a tank of gas takes her 12.0 units of distance, we can calculate the total gas used for 100 miles: <code> 100 miles / 12 units = 8.33333 gallons </code> Since she needs to add 4 more gallons to fill her tank, the total capacity of her tank must be: <code> X = 8.33333 + 4  X = 12.33333 </code> Therefore, the answer is that Sophia's gas tank can hold approximately 12.33333 gallons.
+verifier:0 accs:0 
+*************************
+*************************
+15st data
+Q: Tommy is fundraising for his charity by selling brownies at $3 each and cheesecakes at $4 each. If Tommy sells 43 brownies and 23 cheesecakes, how much money does he raise?
+GT : 221
+True: To calculate the total amount raised, first calculate the total sales from brownies:
+
+43 brownies x $3 each = $129
+
+Next, calculate the total sales from cheesecakes:
+
+23 cheesecakes x $4 each = $92
+
+Finally, add the total sales from the brownies and cheesecakes together:
+
+$129 (brownies) + $92 (cheesecakes) = $221
+
+Tommy raises $221 from selling brownies and cheesecakes for his charity.
+True: To calculate the total amount of money raised, we need to multiply the number of each dessert sold by their respective prices and then add the totals.
+
+Total amount from brownies: 43 brownies * $3 = $129
+Total amount from cheesecakes: 23 cheesecakes * $4 = $92
+
+Total amount raised = $129 + $92 = $221
+
+Tommy raises $221 by selling brownies and cheesecakes.
+True: Tommy raises $129 from selling brownies (43 brownies x $3 each = $129) and $92 from selling cheesecakes (23 cheesecakes x $4 each = $92). In total, Tommy raises $129 + $92 = $221.
+verifier:1 accs:1 
+*************************
+*************************
+16st data
+Q: Raymond and Samantha are cousins. Raymond is 6 years older than Samantha. Raymond has a 23-year-old son. If Samantha is now 31 years old, how many years ago was Raymond's son born?
+GT : 14
+True: Raymond is 6 years older than Samantha, so he is 31 + 6 = 37 years old.
+Raymond's son is 23 years old, so he was born 37 - 23 = 14 years ago.
+False: Raymond is 6 years older than Samantha, so he is 31 + 6 = 37 years old currently.
+Raymond's son was born when Raymond was 37 - 23 = 14 years old.
+Therefore, Raymond's son was born 37 - 14 = 23 years ago.
+True: Raymond is 6 years older than Samantha, so he is 31 + 6 = 37 years old.
+If Raymond's son is 23 years old now, he was born 37 - 23 = 14 years ago.
+14.0 - 5: Raymond is 6 years older than Samantha. If Raymond has a 23-year-old son, that means Raymond is 23 + 6 = 29 years old. If Samantha is X years old, then Raymond was 29 - X years old when she was born. Since Raymond's son was born 14 years ago, we can write the equation: 29 - X = 14 X = 29 - 14 X = 15 So, Samantha is 15 years old.
+23.0 - 0: Let's denote Samantha's age as S and Raymond's age as R. We know that Raymond is 6 years older than Samantha and has a 23-year-old son. This means: R = S + 6 R + 23 = 23 (Raymond's son was born 23 years ago)  Substitute the first equation into the second equation: S + 6 + 23 = 23 S + 29 = 23 S = 23 - 29 S = -6  Since age cannot be negative, Samantha cannot be -6 years old. Therefore, there seems to be a mistake or inconsistency in the given information.
+verifier:1 accs:1 
+*************************
+*************************
+17st data
+Q: Tyrannosaurus Ted plans to bring potato salad to a dinosaur picnic. He knows that each adult dinosaur will eat 10 pounds of potato salad and each juvenile dinosaur will eat half that amount. If there are 20 adult dinosaurs and 5 juvenile dinosaurs at the picnic, and Ted wants to have enough salad for every dinosaur, how many pounds of potato salad does he need to bring?
+GT : 225
+True: First, we need to calculate how many pounds of potato salad the adult dinosaurs will eat. 
+
+20 adult dinosaurs x 10 pounds = 200 pounds
+
+Next, we need to calculate how many pounds of potato salad the juvenile dinosaurs will eat. 
+
+5 juvenile dinosaurs x 5 pounds = 25 pounds
+
+Now, we add the total pounds of potato salad needed for both the adults and juveniles. 
+
+200 pounds + 25 pounds = 225 pounds
+
+Therefore, Tyrannosaurus Ted needs to bring 225 pounds of potato salad to the dinosaur picnic.
+True:  First, determine the total amount of potato salad needed for the adult dinosaurs:
+20 adult dinosaurs * 10 pounds/dinosaur = 200 pounds
+
+Next, determine the total amount of potato salad needed for the juvenile dinosaurs:
+5 juvenile dinosaurs * 5 pounds/dinosaur = 25 pounds
+
+Add the amount needed for the adults and juveniles together: 
+200 pounds + 25 pounds = 225 pounds
+
+Therefore, Tyrannosaurus Ted needs to bring 225 pounds of potato salad to the dinosaur picnic.
+True: The total amount of potato salad needed for the adult dinosaurs is 20 adult dinosaurs * 10 pounds per adult = 200 pounds.
+The total amount of potato salad needed for the juvenile dinosaurs is 5 juvenile dinosaurs * 5 pounds per juvenile = 25 pounds.
+Therefore, Tyrannosaurus Ted needs to bring a total of 200 pounds + 25 pounds = 225 pounds of potato salad for the picnic.
+verifier:1 accs:1 
+*************************
+*************************
+18st data
+Q: Uriah's backpack is too heavy for him. He needs to reduce its weight by 15 pounds. Each of his comic books weighs 1/4 pound and each toy weighs 1/2 pound. If he removes 30 comic books, how many toys does he need to remove?
+GT : 15
+True: First, we need to find out how much weight 30 comic books contribute.
+
+30 comic books * 1/4 pound per comic book = 7.5 pounds
+
+Since Uriah needs to reduce the weight by 15 pounds, he still needs to reduce the weight by 7.5 pounds after removing the 30 comic books. 
+
+Now we need to convert the remaining weight into toys. 
+
+7.5 pounds / 1/2 pound per toy = 15 toys
+
+Therefore, Uriah needs to remove 15 toys in order to reduce the weight of his backpack by 15 pounds.
+True: To reduce the weight by 15 pounds, Uriah needs to remove 30 comic books. 
+
+30 comic books * 1/4 pound each = 30 * 1/4 = 7.5 pounds
+
+Therefore, he still needs to remove 15 - 7.5 = 7.5 pounds
+
+Since each toy weighs 1/2 pound, he needs to remove 7.5 / 1/2 = 15 toys. 
+
+Therefore, Uriah needs to remove 15 toys to reduce the weight of his backpack by 15 pounds.
+True: To reduce the weight by 15 pounds, Uriah needs to remove 30 comic books, which weigh a total of 30 * 1/4 = 7.5 pounds.
+This means he still needs to remove an additional 15 - 7.5 = 7.5 pounds.
+Since each toy weighs 1/2 pound, Uriah needs to remove 7.5 / 1/2 = 15 toys in order to reach his goal.
+verifier:1 accs:1 
+*************************
+*************************
+19st data
+Q: Grace weighs 125 pounds. Alex's weight is 2 pounds less than four times Grace's weight. What is their total weight?
+GT : 623
+True: Let's first calculate Alex's weight. 
+
+4 times Grace's weight = 4 * 125 = 500 pounds
+Alex's weight = 500 - 2 = 498 pounds
+
+Their total weight is 125 + 498 = 623 pounds.
+True: First, we need to calculate Alex's weight.
+
+4 times Grace's weight: 4 * 125 = 500 pounds
+Alex's weight: 500 - 2 = 498 pounds
+
+Now, we calculate the total weight of Grace and Alex:
+
+Total weight: 125 + 498 = 623 pounds
+
+Therefore, their total weight is 623 pounds.
+True: First, we need to find Alex's weight. Four times Grace's weight is 4 x 125 = 500 pounds.
+Now, Alex's weight is 500 - 2 = 498 pounds.
+Their total weight is 125 + 498 = 623 pounds.
+verifier:1 accs:1 
+*************************
+*************************
+20st data
+Q: Marilyn's first album sold ten times as many copies as Harold's. If together they sold 88,000 albums, how many albums did Harold sell?
+GT : 8000
+True: Let's say Marilyn sold x albums and Harold sold y albums. 
+
+Given that Marilyn's first album sold ten times as many copies as Harold's, we can write the equation: x = 10y. 
+
+Also, we know that together they sold 88,000 albums, so we can write the equation: x + y = 88,000. 
+
+Substitute the value of x from the first equation into the second equation:
+
+10y + y = 88,000 
+11y = 88,000 
+y = 8,000 
+
+So, Harold sold 8,000 albums.
+True: Let x be the number of albums Harold sold.
+
+Then Marilyn sold 10x albums.
+
+Together they sold x + 10x = 11x albums.
+
+Given that together they sold 88,000 albums:
+
+11x = 88,000
+x = 8,000
+
+Harold sold 8,000 albums.
+True: Let's represent the number of albums Harold sold as x.
+
+Since Marilyn's first album sold ten times as many copies as Harold's, Marilyn sold 10x albums.
+
+Together, they sold 88,000 albums, so we can write the equation:
+
+x + 10x = 88,000
+11x = 88,000
+x = 8,000
+
+Harold sold 8,000 albums.
+verifier:1 accs:1 
+*************************
+*************************
+21st data
+Q: Greg sets his alarm to go off three times a day as a reminder. When the alarm goes off, it keeps ringing until Greg turns it off. Today it rang four times the first time it went off. The second time it rang, it rang three times as much as the first time. The third time it rang, it rang half as much as the second time. How many times did the alarm ring in total?
+GT : 22
+False:  The alarm rang four times + (4 x 3) = 16 times the second time it went off.
+The alarm rang 16 / 2 = 8 times the third time it went off.
+In total, the alarm rang 4 + 16 + 8 = 28 times.
+True: The first time the alarm rang 4 times.
+The second time it rang 3 times as much as the first, so 4 * 3 = 12 times.
+The third time it rang half as much as the second, so 12 / 2 = 6 times.
+
+In total, the alarm rang 4 + 12 + 6 = 22 times.
+True: The alarm rang 4 times the first time, 4 x 3 = 12 times the second time, and 12 / 2 = 6 times the third time.
+In total, the alarm rang 4 + 12 + 6 = 22 times. 
+Therefore, the alarm rang 22 times in total.
+28.0 - 0: Let's denote Samantha's age as S and Raymond's age as R. We know that Raymond is 6 years older than Samantha and has a 23-year-old son. This means: R = S + 6 R + 23 = 23 (Raymond's son was born 23 years ago)  Substitute the first equation into the second equation: S + 6 + 23 = 23 S + 29 = 23 S = 23 - 29 S = -6  Since age cannot be negative, Samantha cannot be -6 years old. Therefore, there seems to be a mistake or inconsistency in the given information.
+22.0 - 0: Let's denote Samantha's age as S and Raymond's age as R. We know that Raymond is 6 years older than Samantha and has a 23-year-old son. This means: R = S + 6 R + 23 = 23 (Raymond's son was born 23 years ago)  Substitute the first equation into the second equation: S + 6 + 23 = 23 S + 29 = 23 S = 23 - 29 S = -6  Since age cannot be negative, Samantha cannot be -6 years old. Therefore, there seems to be a mistake or inconsistency in the given information.
+verifier:0 accs:0 
+*************************
+*************************
+22st data
+Q: Charlie wants to sell beeswax candles. He can make 10 taper candles from one pound of beeswax. The cost of one pound of beeswax and the required wicks is $10.00. If he sells each candle for $2.00 and makes and sells 20 candles, what is his net profit?
+GT : 20
+True: First, let's calculate the total cost of making 20 candles. 10 taper candles can be made from 1 pound of beeswax, so 20 candles would require 2 pounds of beeswax. The cost of 2 pounds of beeswax and wicks is $10.00 * 2 = $20.00.
+
+Next, let's calculate the total revenue from selling 20 candles. Each candle is sold for $2.00, so 20 candles would bring in $2.00 * 20 = $40.00.
+
+Now, let's calculate the net profit by subtracting the total cost from the total revenue. Net profit = Total revenue - Total cost = $40.00 - $20.00 = $20.00.
+
+Therefore, Charlie's net profit from selling 20 beeswax candles is $20.00.
+False: First, we need to calculate how much it costs Charlie to make the 20 candles. 
+He can make 10 candles from one pound of beeswax, so for 20 candles he will need 2 pounds of beeswax. 
+The cost of 2 pounds of beeswax and required wicks is $10.00, so the cost to make 20 candles is $10.00. 
+
+Next, we calculate how much he makes from selling the 20 candles. 
+He sells each candle for $2.00, so for 20 candles he makes $40.00. 
+
+To calculate his net profit, we subtract the cost from the earnings: 
+$40 (earnings) - $10 (cost) = $30. 
+
+Therefore, Charlie's net profit from selling 20 beeswax candles is $30.00.
+True: First, we need to calculate how much it costs Charlie to make 20 candles. Since he can make 10 candles from one pound of beeswax, he will need 2 pounds of beeswax to make 20 candles. The cost of 2 pounds of beeswax is $20.00.
+
+Additionally, he will also need 20 wicks, which are included in the $10.00 cost of the beeswax.
+
+Therefore, the total cost of making 20 candles is $20.00.
+
+Now, let's calculate his total revenue. Selling each candle for $2.00 means he will make $40.00 from selling 20 candles.
+
+To find his net profit, we need to subtract the total cost from the total revenue:
+$40.00 (total revenue) - $20.00 (total cost) = $20.00
+
+Charlie's net profit from selling 20 beeswax candles is $20.00.
+20.0 - 0: To find the answer for 'X', we first need to calculate the total cost of making 20 candles. Since he can make 10 candles from one pound of beeswax, he will need 2 pounds of beeswax to make 20 candles. The cost of 2 pounds of beeswax and the required wicks is $10.00.  So, the cost of making 20 candles is $10.00. If he sells each candle for $2.00, the total revenue from selling 20 candles is $2.00 x 20 = $40.00.  His net profit is the revenue minus the cost, which is $40.00 - $10.00 = $30.00, not $20.00 as stated in the question.  Therefore, the answer to 'X' is $30.00.
+30.0 - 3: First, we need to determine how many pounds of beeswax Charlie used to make 20 candles. Since he can make 10 candles from one pound of beeswax, he needs 20/10 = 2 pounds of beeswax. The cost of one pound of beeswax and wicks is $10, so for 2 pounds it will be 2 * $10 = $20. Charlie sells each candle for $2, so for 20 candles he earns 20 * $2 = $40. His net profit is then $40 - $20 = $20. Therefore, the answer for 'X' is $20.
+verifier:0 accs:1 
+*************************
+*************************
+23st data
+Q: Jane has three times as many pets as Marcia, and Marcia has two more pets than Cindy. If Cindy has four pets, how many pets do the three of them have together?
+GT : 28
+True: Cindy has 4 pets, Marcia has 6 pets (4 + 2), and Jane has 18 pets (3 x 6). 
+Together, they have 4 + 6 + 18 = 28 pets. 
+Therefore, the three of them have 28 pets together.
+True: Cindy has 4 pets.
+Marcia has 4 + 2 = 6 pets.
+Jane has 3 * 6 = 18 pets.
+Together, they have 4 + 6 + 18 = 28 pets.
+True: Cindy has 4 pets, so Marcia has 4+2 = 6 pets.
+Jane has 3 times as many pets as Marcia, so she has 3*6 = 18 pets.
+Together, the three of them have 4+6+18 = 28 pets.
+verifier:1 accs:1 
+*************************
+*************************
+24st data
+Q: Tula goes to a bakery and buys various pastries. She buys 3 dozen donuts ($68 per dozen), 2 dozen mini cupcakes ($80 per dozen), and 6 dozen mini cheesecakes ($55 per dozen). How much does she spend in total?
+GT : 694
+True: First, let's calculate the cost of the donuts: 
+3 dozen donuts * $68 per dozen = $204
+
+Next, let's calculate the cost of the mini cupcakes: 
+2 dozen mini cupcakes * $80 per dozen = $160
+
+Finally, let's calculate the cost of the mini cheesecakes: 
+6 dozen mini cheesecakes * $55 per dozen = $330
+
+Now, let's add up the total cost of each item: 
+$204 + $160 + $330 = $694
+
+Therefore, Tula spends a total of $694 on pastries.
+True: Tula spends:
+3 * $68 = $204 on donuts
+2 * $80 = $160 on mini cupcakes
+6 * $55 = $330 on mini cheesecakes
+
+Total = $204 + $160 + $330 = $694
+
+Tula spends $694 in total.
+True: First, calculate the cost of the donuts: 3 dozen donuts * $68/dozen = $204
+Next, calculate the cost of the mini cupcakes: 2 dozen mini cupcakes * $80/dozen = $160
+Then, calculate the cost of the mini cheesecakes: 6 dozen mini cheesecakes * $55/dozen = $330
+Finally, add up the costs of all the pastries to find the total cost: $204 + $160 + $330 = $694
+Tula spends a total of $694 on the pastries.
+verifier:1 accs:1 
+*************************
+*************************
+25st data
+Q: If Marcy has worked at the same company for 40 years, she is entitled to an annual pension of $50,000. Starting after 20 years, she is entitled to 5% of the annual pension value each year. If she retires after 30 years, what is her annual pension at that time?
+GT : 25000
+True: After 30 years of working at the company, Marcy would be entitled to 50% of her annual pension value, which is $50,000. Therefore, her annual pension at that time would be $25,000.
+True: After 30 years, Marcy would be entitled to 50% of the annual pension value ($50,000) since she started receiving 5% of the annual pension value after 20 years. 
+
+50% of $50,000 = $25,000 
+
+Therefore, Marcy's annual pension at the time of her retirement after 30 years would be $25,000.
+False: After working for 30 years, Marcy is entitled to 10% of the annual pension value ((30 years - 20 years) x 5%) in addition to the full $50,000 annual pension. 
+
+So, her annual pension at that time would be $50,000 + $5,000 = $55,000.
+25000.0 - 0: Marcy is entitled to an annual pension of $50,000 after working at the company for 40 years. Starting after X years, she is entitled to 5% of the annual pension value each year. If she retires after 30 years, her annual pension at that time is $25,000.  Let's calculate X:  Annual pension = $50,000  After 30 years, she received 5% of her annual pension: $25,000 = 0.05 * $50,000 * (40 - 30)  $25,000 = 0.05 * $50,000 * 10  $25,000 = $5,000  So, after 30 years, she received $5,000 annually. This means she started receiving the 5% pension after 10 years of working at the company.   Therefore, X = 10.   The answer is 10.
+55000.0 - 0: Marcy is entitled to $50,000 annually after 40 years of service. Starting after X years, she is entitled to 5% of the annual pension value each year. If she retires after 30 years, her annual pension is $55,000. We can write the following equation based on this information:  First, we find Marcy's pension after X years: X * 0.05 * $50,000 = (30 - X) * 0.05 * $55,000  0.05X * $50,000 = (30 - X) * 0.05 * $55,000 0.05X * $50,000 = 0.05 * $55,000 * 30 - 0.05 * $55,000X $2,500X = $82,500 - $2,750X $5,250X = $82,500 X = 82,500 / 5,250 X = 15  Therefore, the answer is 15.
+verifier:1 accs:1 
+*************************
+*************************
+26st data
+Q: Cynthia eats one serving of ice cream every evening. She buys several boxes of ice cream, each with 15 servings, for $4.00 per box. After 60 days, how much has she spent on ice cream?
+GT : 16
+True: In 60 days, Cynthia eats one serving of ice cream every evening, so she consumes 1 serving x 60 days = 60 servings.
+Each box of ice cream contains 15 servings, so she needs 60 servings / 15 servings per box = 4 boxes of ice cream.
+If each box costs $4.00, then in 60 days Cynthia has spent 4 boxes x $4.00 = $16.00 on ice cream.
+False: Cynthia eats one serving of ice cream every evening, so in 60 days she consumes 60 servings of ice cream.
+
+Each box contains 15 servings, so Cynthia needs 60/15 = 4 boxes of ice cream.
+
+Each box costs $4.00, so in total Cynthia spends 4 boxes * $4.00 = $16.00 on ice cream in 60 days.
+False: Cynthia buys several boxes of ice cream, each with 15 servings, so she has a total of 15 x number of boxes servings of ice cream.
+
+If she eats one serving of ice cream every evening, in 60 days she will have consumed 60 servings.
+
+So, the number of boxes she needs to buy is 60 servings / 15 servings per box = 4 boxes.
+
+Each box costs $4.00, so in total, Cynthia has spent 4 boxes x $4.00 per box = $16.00 on ice cream in 60 days.
+16.0 - 6: Cynthia buys boxes of ice cream with 15 servings each for $4.00 per box. Let's assume she bought 'Y' boxes in total. Therefore, the total amount spent on ice cream can be calculated as 4 multiplied by 'Y'. After 'X' days, she has spent $16.00 on ice cream. So we can write the following equation:  4Y = 16 Y = 16/4 Y = 4  Since each box has 15 servings, the total number of servings bought is 15Y = 15*4 = 60 servings. If she eats one serving every evening, then after 'X' days, she must have eaten 'X' servings. The remaining servings should be equal to 60 - X. Therefore, we have:  60 - X = 16 X = 60 - 16 X = 44  Therefore, the answer is X = 44.
+60.0 - 2: Cynthia buys boxes of ice cream with 15 servings each for $4.00 per box. Let's say she buys Y boxes in total. Since she eats one serving every evening, after X days she will have spent $60.00 on ice cream. So, we can write the following equation:  Y * 15 * 4 = 60 60 * Y = 60 Y = 1  So, Cynthia buys 1 box of ice cream. Therefore, X equals the number of days she has been eating the ice cream, which is 15 servings in total. The answer is 15.
+verifier:1 accs:1 
+*************************
+*************************
+27st data
+Q: Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there in total?
+GT : 600
+False: There are a total of 200 thorns (3 rose bushes x 25 roses per bush x 8 thorns per rose)
+False: There are a total of 600 thorns (3 rose bushes * 25 roses per bush * 8 thorns per rose)
+True: There are a total of 600 thorns in total. (3 rose bushes * 25 roses per bush * 8 thorns per rose = 600 thorns)
+8.0 - 0: Dan plants 3 rose bushes, each with 25 roses. So, the total number of roses is 3 * 25 = 75. Each rose has X thorns and there are 8 thorns in total. Therefore: <code> 75 * X = 8  X = 8 / 75  X = 0.10666666666666667 </code>  The answer is approximately 0.11.
+600.0 - 9: Each rose bush has 25 roses, and each rose has X thorns. So, 3 rose bushes will have 3 * 25 = 75 roses in total. If there are 600 thorns in total, we can find the number of thorns in each rose by dividing the total number of thorns by the total number of roses: <code> 600 = 75 * X  X = 600 / 75  X = 8 </code> The answer is 8.
+verifier:1 accs:0 
+*************************
+*************************
+28st data
+Q: Meredith is a freelance blogger who writes daily about health topics for her clients as her regular job. It takes her an average of 4 hours to research and write an article. Last week, she wrote 5 articles on Monday. She wrote 2/5 more articles on Tuesday than on Monday. She wrote twice as many articles on Wednesday as on Tuesday. Calculate the total time she spent writing articles over these three days.
+GT : 104
+True: First, let's calculate the number of articles Meredith wrote each day:
+
+Monday: 5 articles
+Tuesday: 5 + 2/5 = 7 articles
+Wednesday: 7 * 2 = 14 articles
+
+Now, let's calculate the total time she spent writing articles:
+
+Total time = (5 articles * 4 hours) + (7 articles * 4 hours) + (14 articles * 4 hours)
+Total time = 20 hours + 28 hours + 56 hours
+Total time = 104 hours
+
+Therefore, Meredith spent a total of 104 hours writing articles over these three days.
+True: First, let's calculate how many articles Meredith wrote on Tuesday.
+
+She wrote 2/5 more articles on Tuesday than on Monday, so she wrote:
+5 + 2/5 * 5 = 5 + 2 = 7 articles on Tuesday.
+
+Then, let's calculate how many articles she wrote on Wednesday.
+
+She wrote twice as many articles on Wednesday as on Tuesday, so she wrote:
+7 * 2 = 14 articles on Wednesday.
+
+Now, let's calculate the total number of articles she wrote over the three days:
+5 (Monday) + 7 (Tuesday) + 14 (Wednesday) = 26 articles.
+
+Finally, let's calculate the total time she spent writing articles over these three days:
+26 articles * 4 hours/article = 104 hours. 
+
+So, Meredith spent a total of 104 hours writing articles over these three days.
+False: First, let's calculate how many articles Meredith wrote on each day:
+
+On Monday, she wrote 5 articles.
+On Tuesday, she wrote 5 + 2/5 = 5 + 0.4 = 5.4 articles (round up to 6 articles).
+On Wednesday, she wrote 6 * 2 = 12 articles.
+
+Now, let's calculate the total time she spent writing articles:
+Total time = (5 articles * 4 hours) + (6 articles * 4 hours) + (12 articles * 4 hours)
+Total time = 20 hours + 24 hours + 48 hours
+Total time = 92 hours
+
+Meredith spent a total of 92 hours writing articles over these three days.
+104.0 - 5: Let's break down the information given: - On Monday, Meredith wrote 5 articles, taking 5*4 = 20 hours. - On Tuesday, she wrote X/5 more articles than on Monday, so she wrote 5 + X/5 articles, taking (5 + X/5)*4 = 20 + X hours. - On Wednesday, she wrote twice as many articles as on Tuesday, so she wrote 2*(5 + X/5) = 10 + 2X/5 articles, taking (10 + 2X/5)*4 = 40 + 8X/5 hours.  The total time she spent writing articles over these three days is: 20 + X + 40 + 8X/5 = 60 + 8X/5 hours.  Given that the answer is 104.0, we can solve for X: 60 + 8X/5 = 104 8X/5 = 44 8X = 220 X = 220/8 X = 27.5  Therefore, the answer is 27.5.
+92.0 - 1: Let's break down the information given:  - Meredith wrote 5 articles on Monday - On Tuesday, she wrote X/5 more articles than on Monday - On Wednesday, she wrote twice as many articles as on Tuesday  Let's calculate the total number of articles she wrote each day: - Monday: 5 articles - Tuesday: 5 + X/5 articles - Wednesday: 2*(5 + X/5) = 10 + 2X/5 articles  Therefore, the total number of articles she wrote over these three days is: 5 + 5 + X/5 + 10 + 2X/5 = 20 + 3X/5  Since she wrote a total of 20 articles over these three days, we can set the equation: 20 = 20 + 3X/5  Solving for X: 3X/5 = 0 3X = 0 X = 0  Therefore, the answer is X = 0.
+verifier:1 accs:1 
+*************************
+*************************
+29st data
+Q: A robe takes 2 bolts of blue fiber and half that much white fiber. How many bolts in total does it take?
+GT : 3
+False: It would take a total of 3 bolts of fiber - 2 bolts of blue fiber and 1 bolt of white fiber (half of 2 bolts).
+False: It takes a total of 3 bolts of fiber (2 blue bolts + 1 white bolt) to make the robe.
+False: It takes 3 bolts of fiber in total (2 blue bolts + 1 white bolt) to make the robe.
+2.0 - 0: The robe takes X bolts of blue fiber and half that much white fiber, so the total number of bolts used is X + (X/2). It takes a total of 2 bolts, so we can write the following equation: <code>X + (X/2) = 2  2X + X = 4  3X = 4  X = 4/3 </code> The answer is 4/3.
+1.0 - 1: Let's say the robe takes X bolts of blue fiber. Since it takes half that much white fiber, it will take X/2 bolts of white fiber. The total bolts used is 1. So we can write the equation as:  X + X/2 = 1 Multiplying by 2 to get rid of the fraction:  2X + X = 2 Combining like terms:  3X = 2 Dividing by 3 to solve for X:  X = 2/3  Therefore, the answer is X = 2/3.
+verifier:0 accs:0 
+*************************
+*************************
+30st data
+Q: Daryl and Allen's age ratio is 7:11. If their current combined age is 162, calculate Allen's age in 10 years.
+GT : 109
+True: Let Daryl's age be 7x and Allen's age be 11x.
+
+The sum of their ages is 7x + 11x = 18x = 162
+
+Therefore, x = 9
+
+Allen's current age = 11 * 9 = 99
+
+In 10 years, Allen's age will be 99 + 10 = 109 years.
+True: Let Daryl's age be 7x and Allen's age be 11x.
+
+Since their combined age is 162:
+7x + 11x = 162
+18x = 162
+x = 9
+
+Allen's current age (11x) = 11 * 9 = 99
+
+In 10 years, Allen's age will be:
+99 + 10 = 109. 
+
+Therefore, Allen's age in 10 years will be 109.
+True: To find the current ages of Daryl and Allen, we first need to calculate the total parts in the age ratio, which is 7 + 11 = 18 parts.
+
+Let x be the common multiplier for their ages. So Daryl's age is 7x and Allen's age is 11x.
+
+Since the current combined age is 162:
+7x + 11x = 162
+18x = 162
+x = 162 / 18
+x = 9
+
+So, Allen's current age is:
+11x = 11 * 9 = 99
+
+In 10 years, Allen's age will be:
+99 + 10 = 109 years.
+verifier:1 accs:1 
+*************************
+*************************
+31st data
+Q: A treasure hunter finds a buried treasure chest. The chest is filled with gems, containing 175 diamonds, rubies that are 35 less than the number of diamonds, and emeralds that are twice the number of rubies. How many gems are in the chest?
+GT : 595
+False: Let x be the number of diamonds.
+
+Therefore, rubies = x - 35
+Emeralds = 2(x - 35) = 2x - 70
+
+Total number of gems = diamonds + rubies + emeralds
+Total number of gems = x + (x - 35) + (2x - 70)
+Total number of gems = 4x - 105
+
+Given that there are 175 diamonds in the chest:
+4x - 105 = 175
+4x = 280
+x = 70
+
+Therefore, the number of diamonds = 70
+Number of rubies = 70 - 35 = 35
+Number of emeralds = 2(35) = 70
+
+Total number of gems in the chest = 70 (diamonds) + 35 (rubies) + 70 (emeralds) = 175 gems.
+True: Let x be the number of diamonds in the chest.
+
+The number of rubies is 175 - 35 = 140.
+
+The number of emeralds is 2 * 140 = 280.
+
+Therefore, the total number of gems in the chest is x (diamonds) + 140 (rubies) + 280 (emeralds).
+Total = x + 140 + 280
+Total = x + 420
+
+Since we know that the chest contains 175 diamonds, we can substitute x = 175 into the equation.
+Total = 175 + 420
+Total = 595
+
+Therefore, there are 595 gems in the chest.
+False: Let x be the number of diamonds.
+Therefore, the number of rubies is x - 35, and the number of emeralds is 2(x - 35).
+
+The total number of gems is:
+x + x - 35 + 2(x - 35) = 175
+
+Simplifying the equation:
+x + x - 35 + 2x - 70 = 175
+4x - 105 = 175
+4x = 280
+x = 70
+
+Therefore, there are:
+70 diamonds,
+70 - 35 = 35 rubies, and
+2(35) = 70 emeralds.
+
+In total, there are 70 + 35 + 70 = 175 gems in the chest.
+175.0 - 0: The number of rubies is 'X' less than the number of diamonds, so the number of rubies would be 175 - X.  The number of emeralds is twice the number of rubies, so the number of emeralds would be 2*(175 - X) = 350 - 2X.  In total, there are 175 gems in the chest, so the sum of diamonds, rubies, and emeralds should equal 175.   Therefore, we have the equation: 175 + (175 - X) + (350 - 2X) = 175  Solving for X, we get: 175 + 175 - X + 350 - 2X = 175 700 - 3X = 175 -3X = -525 X = 175  The answer is X = 175.
+595.0 - 4: Let's break this down:  - Number of rubies = 175 - X - Number of emeralds = 2 * (175 - X) = 350 - 2X  The total number of gems is 595. So we can create the equation: <code> 175 + (175 - X) + (350 - 2X) = 595  700 - 3X = 595  -3X = -105  X = 35 </code> Therefore, the answer is X = 35.
+verifier:1 accs:0 
+*************************
+*************************
+32st data
+Q: Brandon's iPhone is three times older than Ben's iPhone. Ben's iPhone is twice as old as Susie's iPhone. If Susie's iPhone has been used for 1 year, how old is Brandon's iPhone?
+GT : 8
+False: Ben's iPhone is 2 years old (twice as old as Susie's 1 year old iPhone). Therefore, Brandon's iPhone is 3 times older than Ben's, so it is 3 * 2 = 6 years old.
+False: Ben's iPhone is 2 years old (twice as old as Susie's 1-year-old iPhone), and Brandon's iPhone is 6 years old (three times older than Ben's 2-year-old iPhone).
+False: Since Ben's iPhone is twice as old as Susie's, Ben's iPhone is 2 years old. And since Brandon's iPhone is three times older than Ben's, Brandon's iPhone is 3 * 2 = 6 years old.
+6.0 - 2: Ben's iPhone is half the age of Brandon's iPhone, so Ben's iPhone is 6.0 / 2 = 3.0 years old. And since Ben's iPhone is twice as old as Susie's iPhone, Susie's iPhone has been used for 3.0 years.  Therefore, the answer for 'X' is 3.
+2.0 - 0: Let's break it down:  - Susie's iPhone has been used for X years - Ben's iPhone is twice as old as Susie's, so Ben's iPhone has been used for 2X years - Brandon's iPhone is three times older than Ben's, so Brandon's iPhone has been used for 3(2X) = 6X years - It is given that Brandon's iPhone is 2.0 years old  Given that information, we can set up the equation: 6X = 2.0  Solving for X: 6X = 2.0 X = 2.0 / 6 X = 0.333333…  So, the answer for X is approximately 0.33 years.
+verifier:0 accs:0 
+*************************
+*************************
+33st data
+Q: Charlie has 10 stickers. He buys 21 stickers from a store at the mall and receives 23 stickers for his birthday. Then Charlie gives 9 stickers to his sister and uses 28 stickers to decorate greeting cards. How many stickers does Charlie have left?
+GT : 17
+True: Charlie originally had 10 stickers.
+He buys 21 more stickers, bringing his total to 10 + 21 = 31 stickers.
+He receives 23 more stickers for his birthday, bringing his total to 31 + 23 = 54 stickers.
+He gives 9 stickers to his sister, leaving him with 54 - 9 = 45 stickers.
+He uses 28 stickers to decorate greeting cards, leaving him with 45 - 28 = 17 stickers left.
+
+Therefore, Charlie has 17 stickers left.
+True: Charlie started with 10 stickers, bought 21 more, and received 23 for his birthday, so he has 10 + 21 + 23 = 54 stickers in total.
+After giving 9 stickers to his sister and using 28 to decorate greeting cards, he has 54 - 9 - 28 = 17 stickers left. 
+Therefore, Charlie has 17 stickers left.
+True: After buying stickers at the store and receiving stickers for his birthday, Charlie has a total of 10 + 21 + 23 = 54 stickers.
+After giving some to his sister and using some to decorate greeting cards, Charlie has 54 - 9 - 28 = 17 stickers left. 
+
+Therefore, Charlie has 17 stickers left.
+verifier:1 accs:1 
+*************************
+*************************
+34st data
+Q: Artie has a flower stall at the farmers' market selling marigolds, petunias, and begonias. He normally sells a pot of marigolds for $2.74, a pot of petunias for $1.87, and a pot of begonias for $2.12. Artie does not have change today, so he decides to round all prices. If Artie sells 12 pots of marigolds, 9 pots of petunias, and 17 pots of begonias, how much does he earn?
+GT : 88
+True: To round the prices:
+- Marigolds: $2.74 rounded to the nearest dollar is $3
+- Petunias: $1.87 rounded to the nearest dollar is $2
+- Begonias: $2.12 rounded to the nearest dollar is $2
+
+Now, calculate the total earnings:
+12 pots of marigolds at $3 each = $36
+9 pots of petunias at $2 each = $18
+17 pots of begonias at $2 each = $34
+
+Total earnings = $36 + $18 + $34 = $88
+
+Artie earns $88 from selling the pots of marigolds, petunias, and begonias at rounded prices.
+True: To round the prices, let's say Artie sells a pot of marigolds for $3, a pot of petunias for $2, and a pot of begonias for $2.
+
+For marigolds: 12 pots x $3 = $36
+For petunias: 9 pots x $2 = $18
+For begonias: 17 pots x $2 = $34
+
+Adding all the sales together:
+$36 + $18 + $34 = $88
+
+Artie earns $88 selling pots of marigolds, petunias, and begonias at the farmers' market.
+False: First, we need to calculate the total earnings for each type of flower:
+
+- Marigolds: 12 pots x $3 = $36
+- Petunias: 9 pots x $2 = $18
+- Begonias: 17 pots x $2 = $34
+
+Now, we add up the total earnings for each type of flower:
+$36 + $18 + $34 = $88
+
+Therefore, Artie earns $88 from selling 12 pots of marigolds, 9 pots of petunias, and 17 pots of begonias.
+88.0 - 0: To find the total earnings, we need to calculate the rounded prices for each type of flower pot first.  For marigolds: 12 pots x $2.74 = $32.88 Round to nearest whole number: $33  For petunias: 9 pots x $1.87 = $16.83 Round to nearest whole number: $17  For begonias: 17 pots x $2.12 = $36.04 Round to nearest whole number: $36  Total earnings: $33 + $17 + $36 = $86  Since the total earnings are $88, the answer of 'X' must be $88 - $86 = $2.  Therefore, the answer is $2.
+17.0 - 0: Let's first calculate the total earnings from each type of plant: - Marigolds: 12 pots x $2.74 = $32.88 - Petunias: 9 pots x $1.87 = $16.83 - Begonias: 17 pots x $2.12 = $36.04  Now let's add these earnings together to find the total earnings: $32.88 + $16.83 + $36.04 = $85.75  Since the total earnings are $17.0, that means Artie rounded the total earnings to the nearest dollar. Therefore, the original total earnings should be between $16.5 and $17.49.  Since the total earnings are $85.75, rounding that to the nearest dollar gives us the answer 'X': X = $86  Therefore, the answer is that the original total earnings before rounding was $86.
+verifier:1 accs:1 
+*************************
+*************************
+35st data
+Q: John takes care of 10 dogs. Each dog requires 0.5 hours per day for care and walking. How many hours per week does he spend caring for these dogs?
+GT : 35
+False: John spends a total of 5 hours per day (0.5 hours x 10 dogs) caring for his dogs. Therefore, he spends 35 hours per week (5 hours x 7 days) caring for all his dogs.
+False: John spends 5 hours per day caring for the dogs (10 dogs x 0.5 hours per dog).
+Therefore, he spends 35 hours per week caring for the dogs (5 hours per day x 7 days per week).
+True: John spends 5 hours per day caring for the dogs (10 dogs * 0.5 hours per dog = 5 hours). 
+
+So, he spends 35 hours per week caring for the dogs (5 hours per day * 7 days in a week = 35 hours).
+7.0 - 0: John takes care of 10 dogs. Each dog requires 0.5 hours per day, so in total, he spends 10 * 0.5 = 5 hours per day. In a week (7 days), he spends 5 * 7 = 35 hours caring for these dogs. But he spends 7.0 hours per week, so the remaining time (X hours) is used for other activities. <code> 35 - 7 = X  X = 28 </code> The answer is 28.
+35.0 - 3: Each dog requires 0.5 hours per day, so for 10 dogs, John spends 10 * 0.5 = 5 hours per day caring for them. In a week (7 days), he spends 7 * 5 = 35 hours caring for the dogs. So, the answer is X = 10.
+verifier:1 accs:0 
+*************************
+*************************
+36st data
+Q: Kellian has two cooking recipes, the first one has 20 instructions, and the second one has twice the number of instructions as the first one. How many instructions must Kellian read to cook both dishes?
+GT : 60
+True: Kellian must read 20 instructions for the first recipe and 40 instructions for the second recipe. Therefore, Kellian must read a total of 20 + 40 = 60 instructions to cook both dishes.
+True:  Kellian must read 20 + (2 * 20) = 60 instructions to cook both dishes.
+True: Kellian must read 20 instructions for the first recipe and 20 * 2 = 40 instructions for the second recipe. So in total, Kellian must read 20 + 40 = 60 instructions to cook both dishes.
+verifier:1 accs:1 
+*************************
+*************************
+37st data
+Q: In Dr. Weitz's school, the number of boys is twice the number of girls. If there are 60 girls, and there is one teacher for every 5 students, how many teachers are there in the school?
+GT : 36
+True: If there are 60 girls, then there are 2*60 = 120 boys in the school.
+The total number of students in the school is 60 (girls) + 120 (boys) = 180 students.
+Since there is one teacher for every 5 students, the number of teachers in the school is 180 students / 5 students per teacher = 36 teachers.
+True: There are 120 boys in the school (60 girls * 2 = 120 boys). Therefore, the total number of students in the school is 60 girls + 120 boys = 180 students. 
+
+If there is one teacher for every 5 students, then there are 180 students / 5 students per teacher = 36 teachers in the school.
+False:  There are 150 boys in the school (60 girls * 2 = 120 boys), so the total number of students is 60 girls + 150 boys = 210 students. If there is one teacher for every 5 students, then there are 210 students / 5 = 42 teachers in the school.
+36.0 - 6: In Dr. Weitz's school, the number of boys is twice the number of girls. If there are 60 girls, then there are 60 * 2 = 120 boys. So, the total number of students in the school is 60 (girls) + 120 (boys) = 180 students. There is one teacher for every X students, and there are 36 teachers in the school. Therefore, we can write the following equation: X * 36 = 180 X = 180 / 36 X = 5 The answer is 5.
+42.0 - 2: Let's start by finding the number of boys in the school. Since the number of boys is twice the number of girls, there are 2 * 60 = 120 boys in the school. Therefore, the total number of students in the school is 60 (girls) + 120 (boys) = 180 students.  Now, we know that there is one teacher for every X students, and there are 42 teachers in total. So we can write the equation: <code> 180 / X = 42  X = 180 / 42  X = 4.2857 </code>  Since we can't have a fraction of a student, we need to round up to the nearest whole number. Therefore, the answer is X = 5.
+verifier:1 accs:1 
+*************************
+*************************
+38st data
+Q: John drives at 60 miles per hour for 3 hours, then turns around because he realizes he forgot something very important at home. He tries to get home in the next 4 hours, but spends the first 2 hours in heavy traffic. In the next half hour, he drives at 30 miles per hour, and for the remainder of the 4 hours, he can travel at 80 miles per hour. How far is he from home after these 4 hours?
+GT : 45
+False: To find the total distance from home after 4 hours, we need to add up the distances covered in each segment of the drive.
+
+First, he drives at 60 miles per hour for 3 hours: 60 mph * 3 hours = 180 miles
+
+Then he spends 2 hours in heavy traffic, so no distance covered during this time.
+
+Next, he drives at 30 miles per hour for half an hour: 30 mph * 0.5 hours = 15 miles
+
+Finally, he drives at 80 miles per hour for the remaining 1.5 hours: 80 mph * 1.5 hours = 120 miles
+
+The total distance covered is 180 + 15 + 120 = 315 miles
+
+Therefore, John is 315 miles from home after 4 hours of driving.
+False: John is 30 miles away from home after these 4 hours. 
+
+Here is the breakdown of the distance covered in each part of the trip:
+First leg: 60 mph * 3 hours = 180 miles
+Second leg: 60 mph * 2 hours = 120 miles (spent in traffic)
+
+On the way back:
+Third leg: 30 mph * 0.5 hours = 15 miles
+Fourth leg: 80 mph * 1.5 hours = 120 miles
+
+Total distance covered = 180 miles (first leg) - 120 miles (spent in traffic) + 15 miles (third leg) + 120 miles (fourth leg) = 195 - 120 = 75 miles
+
+Therefore, John is 30 miles away from home after these 4 hours.
+False: To calculate the distance John is from home after these 4 hours, we need to calculate the distance he traveled during each portion of the journey and then subtract the total distance traveled from the total round trip distance.
+
+1. First 3 hours:
+Distance = 60 mph * 3 hours = 180 miles
+
+2. Next 2 hours in heavy traffic:
+Distance = 0 mph * 2 hours = 0 miles
+
+3. Next half hour at 30 mph:
+Distance = 30 mph * 0.5 hours = 15 miles
+
+4. Remaining 30 minutes at 80 mph:
+Distance = 80 mph * 1.5 hours = 120 miles
+
+Total distance traveled:
+180 miles + 0 miles + 15 miles + 120 miles = 315 miles
+
+Total round trip distance:
+180 miles + 180 miles = 360 miles
+
+Distance from home after 4 hours:
+360 miles - 315 miles = 45 miles
+
+John is 45 miles from home after these 4 hours.
+verifier:0 accs:0 
+*************************
+*************************
+39st data
+Q: Sivon has 2 fewer jewels than Allen. Allen has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Sivon have?
+GT : 23
+True: Raymond has 40 jewels, so half of his jewels is 40/2 = 20 jewels.
+Allen has 5 more jewels than half of Raymond's jewels, so Allen has 20+5 = 25 jewels.
+Sivon has 2 fewer jewels than Allen, so Sivon has 25-2 = 23 jewels. Answer: \boxed{23}.
+True: First, we need to find out how many jewels Allen has. 
+
+Half of Raymond's jewels is 40/2 = 20 jewels. 
+Allen has 5 more jewels than half of Raymond's jewels, so Allen has 20 + 5 = 25 jewels. 
+
+Since Sivon has 2 fewer jewels than Allen, Sivon has 25 - 2 = 23 jewels. 
+
+Therefore, Sivon has 23 jewels.
+True: First, we need to find out how many jewels Allen has. We know that Allen has 5 more jewels than half of Raymond's jewels, so half of Raymond's jewels is 40/2 = 20 jewels. Allen has 5 more jewels than this, so he has 20 + 5 = 25 jewels.
+
+Now that we know Allen has 25 jewels, we can determine that Sivon has 2 fewer jewels, so she has 25 - 2 = 23 jewels. 
+
+Therefore, Sivon has 23 jewels.
+verifier:1 accs:1 
+*************************
+*************************
+40st data
+Q: Four schools are competing for the championship in a basketball tournament. Each school sends one girls' basketball team and one boys' basketball team, and each team has 5 players. Each school also sends one coach for each of its teams. How many people do these schools send in total?
+GT : 48
+True: Each school sends a total of 12 people (5 girls' team + 5 boys' team + 1 coach for each team = 11 people per school). Therefore, for four schools, the total number of people sent is 4 schools * 12 people per school = 48 people.
+True: Each school sends:
+
+- 1 girls' basketball team (5 players + 1 coach)
+- 1 boys' basketball team (5 players + 1 coach)
+
+So, each school sends a total of 12 people (10 players + 2 coaches).
+
+With 4 schools competing, the total number of people sent is 4 schools * 12 people per school = 48 people. 
+
+Therefore, these schools send a total of 48 people to compete in the championship.
+False: There are 4 schools, each sending:
+- 1 girls' basketball team (5 players + 1 coach)
+- 1 boys' basketball team (5 players + 1 coach)
+
+So for each school, there are a total of 5 players + 1 coach for the girls' team, and 5 players + 1 coach for the boys' team, totaling 13 people per school.
+
+Therefore, for 4 schools, the total number of people sent is:
+4 schools * 13 people per school = 52 people
+
+Therefore, these schools send a total of 52 people in total.
+48.0 - 1: Each school sends 2 teams (boys' and girls' basketball teams) and a coach for each team. So, for each school, there are 2 teams with X players each and 2 coaches. Thus, for 4 schools: <code> 4(2X + 2) = 48  8X + 8 = 48  8X = 40  X = 5 </code> The answer is 5 players in each team.
+52.0 - 2: There are 4 schools, each sending 2 teams and 1 coach for each team, totaling 52 people. Let's calculate the total number of players: 4 (schools) * 2 (teams per school) * (X players per team) = 8X players Each team has a coach, so there are also 8 coaches. Total number of people = 8X (players) + 8 (coaches) = 52 Therefore, we have the equation: 8X + 8 = 52 8X = 44 X = 44/8 X = 5.5 Since you cannot have half a player, X must be a whole number. Let's try with X = 6: 8*6 + 8 = 48 + 8 = 56 If each team has 6 players, then the total number of people would be 56, which is more than 52. Therefore, X = 5. The answer is that each team has 5 players.
+verifier:0 accs:1 
+*************************
+*************************
+41st data
+Q: Marie orders a $12 chicken meal, 5 boxes of milk at $3 each, 4 apples at $1.50 each, and several boxes of pizza. Marie pays a total of $50. If each box of pizza costs $8.50, how many boxes did Marie order?
+GT : 2
+True: Let x be the number of boxes of pizza Marie ordered.
+
+The total cost of the chicken meal, milk, apples, and pizza is given by:
+
+12 + 5*3 + 4*1.5 + 8.5x = 50
+12 + 15 + 6 + 8.5x = 50
+33 + 8.5x = 50
+8.5x = 17
+x = 2
+
+Marie ordered 2 boxes of pizza.
+True: Let x be the number of boxes of pizza Marie ordered.
+The total cost of the milk is 5 * $3 = $15.
+The total cost of the apples is 4 * $1.50 = $6.
+The total cost of all the items is $12 + $15 + $6 + 8.50x = $50.
+$12 + $15 + $6 + 8.50x = $50
+$33 + 8.50x = $50
+8.50x = $17
+x = 2
+Marie ordered 2 boxes of pizza.
+True: Let the number of pizza boxes Marie ordered be x.
+
+Total cost of the chicken meal, milk, apples, and pizza:
+12 + (5*3) + (4*1.50) + (8.5*x) = 50
+12 + 15 + 6 + 8.5x = 50
+33 + 8.5x = 50
+8.5x = 17
+x = 2
+
+Marie ordered 2 boxes of pizza.
+verifier:1 accs:1 
+*************************
+*************************
+42st data
+Q: James decides to run 3 sprints, 3 times a week, each sprint being 60 meters long. How many meters does he run in total each week?
+GT : 540
+True: James runs 180 meters each time he does his sprints. Since he does this 3 times a week, the total distance he runs each week is 540 meters.
+False: James runs 180 meters each day (60 meters x 3 sprints). 
+Therefore, he runs 540 meters each week (180 meters x 3 times a week).
+True: James runs a total of 540 meters each week (3 sprints x 60 meters x 3 times a week = 540 meters).
+540.0 - 9: James runs 3 sprints, 3 times a week, each sprint being X meters long. So, the total distance he runs in a week is: 3 sprints * 3 times * X meters = 9X meters  Given that he runs a total of 540.0 meters each week, we can write the following equation: 9X = 540 X = 540 / 9 X = 60  Therefore, the answer is 60 meters.
+3.0 - 0: James runs 3 sprints per week, each sprint being X meters long. So in total, he runs 3 * X meters per week. If he runs a total of 3.0 meters each week, we can set up the equation: <code> 3 * X = 3.0  X = 3.0 / 3  X = 1.0 </code> The answer is 1.0.
+verifier:1 accs:1 
+*************************
+*************************
+43st data
+Q: Sheila buys 5 phones at $150 each. She opts for a 3-month installment plan, with an interest rate of 2% per month. How much does Sheila pay each month?
+GT : 255
+False: First, let's calculate the total cost of the 5 phones:
+
+5 phones * $150 each = $750
+
+Next, let's calculate the total amount Sheila needs to pay with the 2% monthly interest rate over 3 months:
+
+Principal Amount = $750
+Interest Rate = 2%
+Number of months = 3
+
+Total amount = Principal Amount + Interest
+Total amount = $750 + ($750 * 2% * 3)
+Total amount = $750 + ($750 * 0.02 * 3)
+Total amount = $750 + $45
+Total amount = $795
+
+Now, let's calculate how much Sheila needs to pay each month:
+
+Total amount / Number of months = Monthly payment
+$795 / 3 = $265
+
+Therefore, Sheila needs to pay $265 each month for 3 months to cover the cost of the phones with the 2% interest rate.
+True: First, calculate the total cost of the 5 phones:
+5 phones x $150/phone = $750
+
+Next, calculate the total interest for the 3-month installment plan:
+$750 x 2% = $15
+
+Now, add the total cost of the phones and the total interest:
+$750 + $15 = $765
+
+Finally, divide the total cost by the 3 months to find out how much Sheila will pay each month:
+$765 / 3 = $255
+
+Therefore, Sheila will pay $255 each month for the installment plan.
+False: The total cost for the 5 phones is $150 x 5 = $750.
+
+Sheila will be paying the $750 in 3 months, with an interest rate of 2% per month.
+
+The total interest for 3 months at 2% each month is $750 x 2% x 3 = $45.
+
+So, the total amount Sheila will be paying is $750 + $45 = $795.
+
+Therefore, Sheila will be paying $795 / 3 months = $265 per month.
+2.0 - 0: Sheila buys 5 phones at $150 each, so the total cost is 5 * $150 = $750. She opts for an X-month installment plan with a 2% interest rate per month. Each month she pays $2 towards the installment plan. The total amount she pays over X months can be calculated as: 750 + 2X = 750 + 2*X = 750 + 2X However, since the interest rate is 2% per month, the total amount she pays must also include the interest. So the total amount she pays each month includes the original cost plus the interest, which is calculated as: 750 + 0.02 * 750 * X = 750 + 0.02 * 750 * X = 750 + 15X Therefore, the equation for the total amount she pays each month is: 750 + 15X = 750 + 2X This can be simplified to: 15X = 2X 13X = 750 X = 57.69 Therefore, the answer is that Sheila opts for a 57-month installment plan.
+255.0 - 3: The total cost of 5 phones at $150 each is: 5 * $150 = $750  Let X be the number of months in the installment plan. With an interest rate of 2% per month, the total amount paid over X months will be: $255 * X  Given that the total amount paid equals the total cost of the phones: $255 * X = $750  Solving for X: X = $750 / $255 X ≈ 2.94  Therefore, the answer for 'X' is approximately 3 months.
+265.0 - 4: Let's break this down: Sheila buys 5 phones at $150 each, so the total cost of the phones is: 5 * $150 = $750 Sheila opts for a X-month installment plan with an interest rate of 2% per month. Each month, she pays $265.00. The total amount she pays over X months with 2% interest per month is: $265 * X = Total amount paid The total amount paid must cover the cost of the phones plus interest: $750 + (2% * $750 * X) = Total amount paid Now we can set up the equation and solve for X: $750 + (0.02 * $750 * X) = $265 * X $750 + $15X = $265X $750 = $265X - $15X $750 = $250X X = $750 / $250 X = 3 So, the answer is 3. Sheila opts for a 3-month installment plan.
+verifier:0 accs:0 
+*************************
+*************************
+44st data
+Q: Gene has 30 lollipops. Gene ate 2 of them. For the remaining lollipops, Gene wants to pack 2 in a bag. How many bags can Gene fill?
+GT : 14
+True: For the remaining lollipops after eating 2, Gene has 28 lollipops left. If Gene wants to pack 2 lollipops in each bag, he can fill 14 bags (28 lollipops / 2 lollipops per bag = 14 bags).
+False: Gene can fill 14 bags with the remaining 28 lollipops (30 total - 2 eaten), as each bag contains 2 lollipops.
+True: Gene will have 28 lollipops remaining after eating 2. Dividing this by 2 lollipops per bag, Gene can fill 14 bags.
+14.0 - 8: Gene started with 30 lollipops. If he ate X lollipops and wants to pack X lollipops in each bag, we can write the following equation: <code> 30 - X = 14 * X  30 = 15X  X = 2 </code> The answer is 2.
+2.0 - 0: Gene started with 30 lollipops. If he ate X of them and wants to pack X in a bag, that means he will have 30 - X remaining lollipops to pack. Since he can fill two bags, the equation would be: <code> 30 - X = 2X  30 = 3X  X = 10 </code> The answer is 10.
+verifier:1 accs:1 
+*************************
+*************************
+45st data
+Q: Two trains leave San Rafael simultaneously heading west and both travel 80 miles. The next day, they travel north for 150 miles. How far does each train travel in these two days?
+GT : 230
+True:  Each train travels a total of 230 miles.
+True: Each train travels a total of 230 miles in these two days.
+True: Each train travels a total of 230 miles in the two days.
+verifier:1 accs:1 
+*************************
+*************************
+46st data
+Q: Beili initially receives a certain amount of money. Then she receives $5 every week for 8 weeks. If Beili has received a total of $100 after 8 weeks, what amount did she initially receive?
+GT : 60
+True: Let x be the initial amount Beili received. 
+
+After 8 weeks, she will have received x + 5*8 = x + 40 dollars. 
+
+According to the given information, this total amount is $100. Thus, we can write: 
+x + 40 = 100
+x = 100 - 40
+x = 60
+
+Therefore, Beili initially received $60.
+True: Let X be the initial amount Beili received.
+
+After 8 weeks, she received $5 every week for 8 weeks, so she received 5 * 8 = $40 from weekly payments.
+
+In total, she received $100, so the initial amount she received is:
+
+X + $40 = $100
+X = $100 - $40
+X = $60
+
+Therefore, Beili initially received $60.
+True: Let x be the initial amount Beili received.
+
+After receiving $5 every week for 8 weeks, Beili receives a total of $5 * 8 = $40.
+
+The total amount Beili received after 8 weeks is x + $40.
+
+Given that the total amount Beili received after 8 weeks is $100, we can set up the equation:
+
+x + $40 = $100
+
+Subtracting $40 from both sides, we get:
+
+x = $100 - $40
+x = $60
+
+Therefore, Beili initially received $60.
+verifier:1 accs:1 
+*************************
+*************************
+47st data
+Q: A wooden bridge has a maximum weight limit of 5,000 pounds. A cargo truck loaded with identical boxes, each weighing 15 pounds, will cross this bridge. The combined weight of the driver and the truck when empty is 3,755 pounds. To not exceed the bridge's weight limit, how many boxes can the truck carry at most?
+GT : 83
+True: To find out how many boxes the truck can carry at most without exceeding the weight limit, we need to subtract the weight of the driver and the empty truck from the maximum weight limit of the bridge.
+
+Maximum weight limit of the bridge = 5,000 pounds
+Weight of the driver and empty truck = 3,755 pounds
+
+Available weight for cargo = 5,000 pounds - 3,755 pounds = 1,245 pounds
+
+Weight of each box = 15 pounds
+
+Number of boxes the truck can carry = Available weight for cargo / Weight of each box
+Number of boxes = 1,245 pounds / 15 pounds ≈ 83
+
+Therefore, the truck can carry at most 83 boxes without exceeding the bridge's weight limit.
+True: To calculate the maximum number of boxes the truck can carry, we first need to subtract the weight of the driver and the empty truck from the bridge's weight limit:
+
+5,000 pounds (max weight) - 3,755 pounds (weight of driver and truck) = 1,245 pounds available for boxes
+
+Next, we divide the available weight by the weight of each box to determine the maximum number of boxes the truck can carry:
+
+1,245 pounds / 15 pounds per box = 83 boxes
+
+Therefore, the truck can carry at most 83 boxes without exceeding the weight limit of the bridge.
+True: To calculate the maximum number of boxes the truck can carry, we first need to subtract the weight of the driver and the truck when empty from the bridge's weight limit:
+
+5,000 pounds - 3,755 pounds = 1,245 pounds
+
+Now, we divide this remaining weight by the weight of each box:
+
+1,245 pounds ÷ 15 pounds = 83 boxes
+
+So, the truck can carry at most 83 boxes to not exceed the bridge's weight limit.
+verifier:1 accs:1 
+*************************
+*************************
+48st data
+Q: The number of sheep in Toulouse is twice that of Charleston, and Charleston’s sheep are four times that of Seattle. If Seattle has 20 sheep, how many sheep do Toulouse, Charleston, and Seattle have in total?
+GT : 260
+True: In this scenario:
+
+- Seattle has 20 sheep
+- Charleston has 4 times the number of sheep as Seattle, so Charleston has 4 * 20 = 80 sheep
+- Toulouse has twice the number of sheep as Charleston, so Toulouse has 2 * 80 = 160 sheep
+
+Total number of sheep in Toulouse, Charleston, and Seattle = 20 + 80 + 160 = 260 sheep
+
+Therefore, Toulouse, Charleston, and Seattle have a total of 260 sheep.
+True: Seattle has 20 sheep.
+Charleston has 20 * 4 = 80 sheep.
+Toulouse has 80 * 2 = 160 sheep.
+
+In total, Seattle, Charleston, and Toulouse have 20 + 80 + 160 = 260 sheep.
+True: If Seattle has 20 sheep, then Charleston has 4 * 20 = 80 sheep.
+And Toulouse has 2 * 80 = 160 sheep.
+So in total, Toulouse, Charleston, and Seattle have 20 + 80 + 160 = 260 sheep.
+verifier:1 accs:1 
+*************************
+*************************
+49st data
+Q: John plans to sell all his toys and then use the money to buy video games. He has 13 sets of Legos, each set selling for $15. He ends up buying 8 video games, each costing $20, and he still has $5 left. How many sets of Legos does he have left?
+GT : 2
+True: John originally had 13 sets of Legos, each selling for $15, so the total amount he would have made from selling all his Legos would be 13 * $15 = $195.
+He then spent $160 on video games (8 games * $20/game) and had $5 left, so he spent a total of $160 + $5 = $165.
+This means he had $195 - $165 = $30 left after selling all his Legos.
+Since each set of Legos sold for $15, he must have had $30 / $15 = 2 sets of Legos left. 
+
+Therefore, John has 2 sets of Legos left.
+True: John sells 13 sets of Legos for a total of 13 * $15 = $195.
+He spends $20 * 8 = $160 on video games.
+After buying the video games, he is left with $5, so he has $195 - $160 + $5 = $40 left from selling the Legos.
+Therefore, John has 40 / 15 = 2.67 sets of Legos left.
+Since he cannot have a fraction of a set, John has 2 sets of Legos left.
+False: John initially had $15 x 13 = $195 from selling all his Legos.
+He spent $20 x 8 = $160 on video games.
+After buying the video games, John had $195 - $160 = $35 left.
+Since he also has $5 left, he spent $35 - $5 = $30 on the video games.
+Therefore, John originally had $30 + $160 = $190.
+This means he has $190 / $15 = 12 sets of Legos left.
+2.0 - 3: John started with 13 sets of Legos, which he sold for $15 each. This means he earned: <code> 13 * 15 = $195 </code> He ends up with $5 left after buying the video games, so he spent: <code> 195 - 5 = $190 </code> He bought video games for $20 each, so he bought: <code> 190 / 20 = 9.5 </code> However, he can't buy a fraction of a video game, so he must have bought 9 video games. Therefore, the answer is 9.
+12.0 - 0: John originally had 13 sets of Legos, each selling for $15. So, the total money he made from selling his Legos is: <code> 13 * 15 = $195 </code> He then used this money to buy X video games, each costing $20. He also had $5 left. So, we can write the following equation: <code> 195 = X * 20 + 5  X = (195 - 5) / 20  X = 9 </code> The answer is 9.
+verifier:1 accs:1 
+*************************
+*************************
+50st data
+Q: Judy teaches 5 dance classes on weekdays and 8 classes on Saturdays. If each class has 15 students, and she charges $15.00 per student, how much does she earn in a week?
+GT : 7425
+False: On weekdays, Judy teaches 5 dance classes x 15 students = 75 students.
+On Saturdays, Judy teaches 8 dance classes x 15 students = 120 students.
+In total, Judy teaches 75 students on weekdays + 120 students on Saturdays = 195 students.
+At $15.00 per student, Judy earns 195 students x $15.00 = $2,925.00 per week.
+False: First, calculate the total number of students Judy teaches in a week: 
+Weekdays: 5 classes/day * 15 students/class = 75 students
+Saturday: 8 classes * 15 students/class = 120 students
+Total students in a week = 75 students + 120 students = 195 students
+
+Next, calculate the total earnings in a week: 
+Total students * price per student = 195 students * $15.00/student = $2,925.00
+
+Therefore, Judy earns $2,925.00 in a week.
+True: On weekdays, Judy earns: 5 classes/day * $15/class * 15 students/class = $1125/day
+On Saturdays, Judy earns: 8 classes * $15/class * 15 students/class = $1800
+In a week, Judy earns: $1125/day * 5 days + $1800 = $5625 + $1800 = $7425
+Judy earns $7425 in a week.
+2925.0 - 4: Let's break down the information provided: - Judy teaches 5 dance classes on weekdays and 8 classes on Saturdays. - Each class has X students. - Judy charges $X.00 per student. - Judy earns $2925.00 in a week.  Let's calculate the total earnings from the weekday classes and Saturday classes: Total earnings from weekday classes = 5 (classes on weekdays) * X (students per class) * $X.00 (charge per student) Total earnings from Saturday classes = 8 (classes on Saturdays) * X (students per class) * $X.00 (charge per student)  The total earnings in a week can be represented as: Total earnings = Total earnings from weekday classes + Total earnings from Saturday classes $2925.00 = 5X * X + 8X * X $2925.00 = 5X^2 + 8X^2 $2925.00 = 13X^2  Now, we can solve for X: 13X^2 = $2925.00 X^2 = $2925.00 / 13 X^2 = $225.00 X = sqrt($225.00) X = $15.00  Therefore, the answer for 'X' is $15.00.
+7425.0 - 1: Judy teaches 5 dance classes on weekdays and 8 classes on Saturdays, so she teaches a total of 5(days) * 5(classes/day) + 8(classes on Saturday) = 33 classes. Let the number of students in each class be X and the fee per student be $X.00. Then her total earnings from all classes in a week would be 33 * X * X = 33X^2. Given that she earns $7425.0 in a week, we can write the equation as: <code> 33X^2 = 7425  X^2 = 7425 / 33  X^2 = 225  X = √225  X = 15 </code> Therefore, the number of students in each class and the fee per student is 15.
+verifier:0 accs:0 
+*************************
+*************************
+51st data
+Q: Marisa is hiking a 12-mile trail. She walks the first 4 miles in 1 hour, then another 2 miles in the next hour. If she wants to average 4 miles per hour, what speed must she maintain for the remaining distance?
+GT : 6
+False: Marisa has already hiked a total of 6 miles in 2 hours. To reach her goal of averaging 4 miles per hour for the entire 12-mile trail, she has 6 more miles to cover.
+
+To find out how long she has left to reach her goal, we need to calculate the time it would take her to cover those remaining 6 miles at a speed of 4 miles per hour.
+
+Time = Distance / Speed
+Time = 6 miles / 4 mph
+Time = 1.5 hours
+
+Since Marisa has already spent 2 hours on the trail, she has 1.5 more hours to reach her goal. To find out the speed she must maintain for the remaining distance, we calculate:
+
+Speed = Distance / Time
+Speed = 6 miles / 1.5 hours
+Speed = 4 mph
+
+Therefore, Marisa must maintain a speed of 4 miles per hour for the remaining distance in order to achieve an average speed of 4 miles per hour for the entire trail.
+False: To average 4 miles per hour over 12 miles, Marisa would need to complete the hike in 3 hours total (12 miles / 4 miles per hour = 3 hours).
+
+Since she has already spent 2 hours covering 6 miles, she has 1 hour remaining to cover the remaining 6 miles.
+
+Therefore, Marisa must maintain a speed of 6 miles per hour for the remaining distance in order to average 4 miles per hour for the entire 12-mile trail.
+False: To find out how fast Marisa must walk for the remaining 6 miles to average 4 miles per hour for the entire 12-mile trail, we can use the formula:
+
+Average speed = Total distance / Total time
+
+Given:
+- Total distance = 12 miles
+- Marisa walked the first 4 miles in 1 hour, then another 2 miles in the next hour, so she has covered 6 miles in 2 hours.
+- Average speed desired = 4 miles per hour
+
+Using the formula:
+
+4 miles per hour = 12 miles / Total time
+Total time = 12 miles / 4 miles per hour
+Total time = 3 hours
+
+Marisa took 2 hours to walk the first 6 miles, so she has 1 hour left for the remaining 6 miles.
+
+To find out the speed she must maintain for the remaining distance:
+
+Speed = Distance / Time
+Speed = 6 miles / 1 hour
+Speed = 6 miles per hour
+
+Therefore, Marisa must maintain a speed of 6 miles per hour for the remaining 6 miles to average 4 miles per hour for the entire 12-mile trail.
+4.0 - 1: Marisa is hiking a 6-mile trail. She walks the first 4 miles in 1 hour and then another 2 miles in the next hour, totaling 6 miles in 2 hours. To average 4 miles per hour, she must maintain a speed of 4.0 for the remaining distance, which is 4 miles. Therefore, the answer of 'X' is 6.
+12.0 - 1: We know that Marisa wants to average 4 miles per hour for the entire trail, so the total time taken to complete the hike is X hours.  She walks the first 4 miles in X hours, then walks another 2 miles in the next hour.  This means she has covered 6 miles in X + 1 hours. To average 4 miles per hour for the entire trail, she must maintain a speed of 12 miles per hour for the remaining distance.  This means she has to cover (X2 - 6) miles in (X - 1) hours at a speed of 12 miles per hour.  Therefore, we can write the following equation: (X + 1) * 4 + (X - 1) * 12 = X2 Solving this equation will give us the value of X.
+verifier:0 accs:0 
+*************************
+*************************
+52st data
+Q: Eliza earns $10 per hour for the first 40 hours she works each week. She earns 1.2 times her standard hourly wage for overtime. If Eliza worked 45 hours this week, what is her total income?
+GT : 460
+True: Eliza's standard weekly income for the first 40 hours is:
+$10 x 40 hours = $400
+
+For the 5 hours of overtime, she earns 1.2 times her standard hourly wage, which is:
+$10 x 1.2 = $12 per hour
+
+So, her total overtime earnings for the week are:
+$12 x 5 hours = $60
+
+Therefore, Eliza's total income for the week is:
+$400 (standard pay) + $60 (overtime pay) = $460.
+True: Eliza worked 40 regular hours and 5 overtime hours this week.
+
+Regular earnings: $10/hour * 40 hours = $400
+Overtime earnings: $10/hour * 1.2 = $12/hour
+Overtime earnings: $12/hour * 5 hours = $60
+
+Total income: $400 (regular) + $60 (overtime) = $460
+
+Therefore, Eliza's total income for the week is $460.
+True: First, calculate Eliza's regular earnings for the first 40 hours she worked: 
+Regular earnings = $10/hour * 40 hours = $400
+
+Next, calculate how much Eliza earns for the 5 hours of overtime she worked:
+Overtime earnings per hour = $10 * 1.2 = $12
+Overtime earnings for 5 hours = $12/hour * 5 hours = $60
+
+Finally, add the regular earnings and overtime earnings together to find Eliza's total income for the week:
+Total income = $400 + $60 = $460
+verifier:1 accs:1 
+*************************
+*************************
+53st data
+Q: When Freda cooks canned tomatoes into tomato sauce, the quantity reduces by half. Each 16-ounce can of tomatoes contains 3 tomatoes. Freda's last batch of tomato sauce is 32 ounces. How many tomatoes did Freda use?
+GT : 12
+False: Freda used 6 tomatoes in her last batch of tomato sauce. 
+
+First, we find out how many cans of tomatoes Freda used in total by dividing the final quantity of tomato sauce (32 ounces) by the quantity reduction factor (2): 32 oz / 2 = 16 oz. 
+
+Since each can of tomatoes contains 3 tomatoes, we then divide the number of ounces of tomato sauce used by the number of tomatoes in each can to find out how many cans of tomatoes Freda used: 16 oz / 3 tomatoes = 5.33 cans. 
+
+Since Freda cannot use a third of a can, we know she used 5 cans of tomatoes, which means she used 5 cans x 3 tomatoes per can = 15 tomatoes. 
+
+Therefore, Freda used 15 tomatoes in her last batch of tomato sauce.
+False: Freda used 6 tomatoes to make her 32-ounce batch of tomato sauce. 
+
+Explanation:
+- Each 16-ounce can of tomatoes contains 3 tomatoes, so for 32 ounces of tomato sauce, Freda used 2 cans (16 ounces each) of tomatoes.
+- With the reduction in quantity by half when cooking canned tomatoes into tomato sauce, Freda used a total of 6 tomatoes (3 tomatoes per can x 2 cans = 6 tomatoes) for her batch of tomato sauce.
+False: Freda used 6 tomatoes to make 32 ounces of tomato sauce. 
+
+First, we need to find out how many 16-ounce cans of tomatoes Freda used. 
+32 ounces / 16 ounces = 2 cans of tomatoes
+
+Then, we can calculate how many tomatoes Freda used in total. 
+2 cans * 3 tomatoes per can = 6 tomatoes
+15.0 - 0: Each 16-ounce can of tomatoes contains 3 tomatoes, so if Freda used 15 tomatoes for her last batch of tomato sauce, she used 15/3 = 5 cans of tomatoes.  When Freda cooks canned tomatoes into tomato sauce, the quantity reduces by half. So, the total quantity of tomato sauce in ounces would be: 5 cans * 16 ounces/can = 80 ounces of tomato sauce  Therefore, the answer is X = 80.
+6.0 - 1: Each 16-ounce can contains 3 tomatoes and Freda used 6 tomatoes, so she used 2 cans of tomatoes. When the quantity reduces by half, the 32 ounces of tomatoes in two cans become 16 ounces in the sauce. Therefore, the answer of 'X' is 16 ounces.
+verifier:0 accs:0 
+*************************
+*************************
+54st data
+Q: Dana's running speed is four times her walking speed, but her jumping speed is half her running speed. If she can jump 3 miles per hour, and spends one-third of a 6-hour period running and two-thirds walking, how far does she cover?
+GT : 18
+False: Let's denote Dana's walking speed as W mph. 
+
+Given that her running speed is four times her walking speed, her running speed is 4W mph.
+
+Her jumping speed is half her running speed, so her jumping speed is 2W mph.
+
+We know that she can jump 3 mph, so we can set up the equation:
+
+2W = 3
+W = 1.5 mph
+
+Therefore, Dana's walking speed is 1.5 mph, her running speed is 4(1.5) = 6 mph, and her jumping speed is 2(1.5) = 3 mph.
+
+In a 6-hour period, she spends 1/3 running and 2/3 walking.
+
+Distance covered while running = (6 mph)(1 hour) = 6 miles
+Distance covered while walking = (1.5 mph)(2/3)(6 hours) = 6 miles
+
+Total distance covered = 6 + 6 = 12 miles
+
+Therefore, Dana covers a total distance of 12 miles.
+False: Let's denote Dana's walking speed as W mph. 
+According to the given information, her running speed is 4W mph and her jumping speed is 2W mph. 
+
+In a 6-hour period, Dana spends 2 hours running and 4 hours walking. 
+Distance covered running = (running speed)*(time) = 4W * 2 = 8W miles
+Distance covered walking = (walking speed)*(time) = W * 4 = 4W miles
+
+Total distance covered = 8W + 4W = 12W miles
+
+We know that her jumping speed is 3 mph, which is equal to 2W mph. 
+Therefore, W = 1.5 mph
+
+Therefore, total distance covered = 12 * 1.5 = 18 miles
+
+Dana covers a total distance of 18 miles in the 6-hour period.
+False: Let's denote Dana's walking speed as x.
+
+Therefore, her running speed is 4x and her jumping speed is 2x.
+
+Since she can jump 3 miles per hour, we have:
+
+2x = 3
+x = 1.5
+
+So, Dana's walking speed is 1.5 mph, her running speed is 6 mph, and her jumping speed is 3 mph.
+
+During the 6-hour period, Dana spends 2 hours running and 4 hours walking.
+
+Distance covered running = 6 mph * 2 hours = 12 miles
+Distance covered walking = 1.5 mph * 4 hours = 6 miles
+
+Total distance covered = 12 miles + 6 miles = 18 miles
+
+Therefore, Dana covers a total distance of 18 miles during the 6-hour period.
+12.0 - 0: Let's first determine Dana's jumping speed. Since her jumping speed is half her running speed and she can jump 3 miles per hour, her running speed would be 6 miles per hour.   Given that her running speed is four times her walking speed, her walking speed would be 1.5 miles per hour.  Let's now calculate the time she spends running and walking.  If she spends one-third of X hours running and two-thirds walking, the time spent running would be (1/3)X and the time spent walking would be (2/3)X.  The total distance covered by Dana running and walking is 12 miles, so we can write the equation: (1/3)X * 6 + (2/3)X * 1.5 = 12 2X + X = 36 3X = 36 X = 12  Therefore, the answer is 12.
+6.0 - 0: Let's break down the information given: - Dana's jumping speed is 3 miles per hour. - Her running speed is four times her walking speed, so her running speed is 4x. - Her jumping speed is half her running speed, so her walking speed is 4x/2 = 2x. - Dana spends one-third of a period running and two-thirds walking, which means she runs for X/3 hours and walks for 2X/3 hours.  Now, we can calculate the total distance she covers by combining the distances covered while running and walking: Distance covered while running = (Dana's running speed) * (time spent running) = 4x * (X/3) = 4X^2 / 3 Distance covered while walking = (Dana's walking speed) * (time spent walking) = 2x * (2X/3) = 4X^2 / 3  Adding these distances together gives the total distance covered by Dana: Total distance = 4X^2 / 3 + 4X^2 / 3 = 8X^2 / 3  Given that the total distance covered is 6.0 miles, we can set up the equation: 8X^2 / 3 = 6.0 8X^2 = 18 X^2 = 18 / 8 X^2 = 2.25 X = √2.25 X = 1.5  Therefore, the answer for 'X' is 1.5.
+verifier:0 accs:0 
+*************************
+*************************
+55st data
+Q: Mary is an enthusiastic gardener. Yesterday, she received 18 potted plants from her favorite nursery. In her large country house, each of the 40 windowsills already had 2 potted plants. With a generous spirit, she decided to remove one potted plant from each windowsill tomorrow to give to friends and family. How many potted plants does Mary have left?
+GT : 58
+True: Mary currently has 18 potted plants from the nursery + (40 windowsills x 2 plants per windowsill) = 18 + 80 = 98 potted plants.
+If she plans to remove one plant from each windowsill, she will be giving away 40 plants.
+Therefore, Mary will have 98 plants - 40 plants = 58 potted plants left after giving some away.
+True: Mary has a total of 80 potted plants from her windowsills (40 windowsills x 2 potted plants per windowsill = 80 plants). After removing one plant from each windowsill, she will have 40 potted plants left (80 plants - 40 plants = 40 plants). Additionally, she received 18 potted plants from the nursery, so Mary still has 58 potted plants in total (40 plants from windowsills + 18 plants from nursery = 58 plants).
+True: Mary currently has 40 windowsills x 2 plants per windowsill = 80 plants in total on the windowsills.
+After removing one plant from each windowsill, she will have 80 plants - 40 plants = 40 plants left.
+Adding the 18 new potted plants she received, Mary will have 40 plants + 18 plants = 58 potted plants in total.
+verifier:1 accs:1 
+*************************
+*************************
+56st data
+Q: While the Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter, their mom calls to tell them that their two house cats just had kittens. She says the first cat, Little Patch, had twice as many kittens as the number of adopted kittens, and the second cat, Trecksey, had 12 kittens. How many kittens does the Doubtfire family now have?
+GT : 40
+False: 19 kittens. Little Patch had 14 kittens (twice as many as the 7 adopted kittens) and Trecksey had 12 kittens, making a total of 14 + 12 = 26 kittens.
+False: The first cat, Little Patch, had 14 kittens (7 x 2 = 14). Adding the 12 kittens from Trecksey, the Doubtfire family now has a total of 26 kittens.
+False: Little Patch had 14 kittens (7 x 2 = 14) + Trecksey had 12 kittens = 26 kittens total. 
+The Doubtfire family now has a total of 26 kittens.
+verifier:0 accs:0 
+*************************
+*************************
+57st data
+Q: Grandma Jones baked 5 apple pies as lunch for the firefighters. She cut each pie into 8 pieces and placed them on an outdoor buffet table for guests to serve themselves. At the end of lunch, after the guests had taken their share, 14 pieces were left. How many whole pies did the guests take?
+GT : 26
+False: The total number of pieces that were left is 14, so the total number of pieces that were taken by guests is:
+
+5 pies x 8 pieces per pie = 40 pieces
+
+To find out how many pieces were taken by guests, we can subtract the pieces that were left from the total number of pieces:
+
+40 pieces - 14 pieces = 26 pieces
+
+So, the guests took a total of 26 pieces of pie. To find out how many whole pies were taken by guests, we can divide the total number of pieces taken by the number of pieces in each pie:
+
+26 pieces / 8 pieces per pie = 3 whole pies
+
+Therefore, the guests took a total of 3 whole pies.
+False: The total number of pieces in 5 apple pies is 5 x 8 = 40 pieces.
+After the guests took their share, there were 40 - 14 = 26 pieces left.
+Therefore, the guests took a total of 40 - 26 = 14 pieces.
+Since each pie has 8 pieces, the guests took a total of 14 / 8 = 1.75 pies.
+Since the guests cannot take a fraction of a pie, they took a total of 1 whole pie.
+False: The total number of pieces of pie Grandma Jones had at the beginning was 5 pies x 8 pieces = 40 pieces.
+After the guests took their share, there were 40 pieces - 14 pieces = 26 pieces of pie left.
+Since each pie has 8 pieces, this means the guests took 26 pieces / 8 pieces per pie = 3 whole pies.
+Therefore, the guests took 3 whole pies of apple pie.
+3.0 - 1: Grandma Jones baked 5 apple pies, each cut into 8 pieces, so there were originally 5 x 8 = 40 pieces. The guests took 3 whole pies, which is 3 x 8 = 24 pieces. So, the remaining pieces can be calculated as: <code> 40 - 24 = X  X = 16 </code> The answer is 16.
+1.0 - 0: Each pie was cut into 8 pieces, so 5 pies would yield 5 * 8 = 40 pieces in total. The guests took one whole pie, which is 8 pieces. So, there were 40 - 8 = 32 pieces left. Therefore, the answer is X = 32.
+verifier:0 accs:0 
+*************************
+*************************
+58st data
+Q: The dragon Pelg stops at the top of Mount Farbo and breathes fire at everything within 1,000 feet. Polly can throw the only known dragon-slaying spear 400 feet, just within the dragon's fire range. But when Polly holds a sapphire, she can throw the spear three times farther than without it. If Polly holds the stone, how far outside the dragon's fire range can she stand to strike it with the spear?
+GT : 200
+True: If Polly can throw the spear 400 feet without any enhancements, then holding the sapphire allows her to throw it three times farther, or 3 * 400 = 1200 feet.
+
+Since the dragon's fire range is 1000 feet, Polly can stand 1200 - 1000 = 200 feet outside the dragon's fire range and still be able to strike it with the spear.
+False:  If Polly can throw the spear three times farther with the sapphire, she can throw it 1200 feet (400 feet x 3) with the stone. Since she needs to stand within 1000 feet to hit the dragon, she can stand up to 200 feet (1200 feet - 1000 feet) outside the dragon's fire range to strike it with the spear.
+True: When Polly holds the sapphire, she can throw the spear 400 x 3 = 1200 feet.
+Since the dragon's fire range is 1000 feet, Polly can stand 1200 - 1000 = 200 feet outside the dragon's fire range to strike it with the spear.
+200.0 - 1: When Polly holds the sapphire, she can stand 200 units away from the dragon's fire range to strike it with the spear. This means that the total distance the spear can be thrown is 1000 + 200 = 1200 feet. Without the sapphire, Polly can throw the spear three times shorter than with it, so 'X' can be calculated as follows: <code> X * 3 = 1200  X = 1200 / 3  X = 400 </code> Therefore, the answer is 400 feet.
+1000.0 - 0: Let's set up the equation: Without the sapphire, Polly can throw the spear X feet, which is just within the dragon's fire range: X = 1000 feet  With the sapphire, she can throw the spear three times farther, so: 3X = 1000  Solving for X: X = 1000 / 3 X = 333.33 feet  Therefore, the answer for 'X' is 333.33 feet.
+verifier:1 accs:1 
+*************************
+*************************
+59st data
+Q: Terry eats 2 servings of yogurt a day. Now the yogurt is on sale, with 4 servings for $5.00. How much does he spend on yogurt in 30 days?
+GT : 75
+False: If Terry eats 2 servings of yogurt a day, he would need 2 * 30 = 60 servings in 30 days.
+Since 4 servings cost $5.00, each serving costs $5.00 / 4 = $1.25.
+Therefore, Terry would spend $1.25 * 60 = $75.00 on yogurt in 30 days.
+False: Terry eats 2 servings of yogurt a day, so he consumes 2*30 = 60 servings in 30 days.
+The yogurt is on sale with 4 servings for $5.00, so he buys 60/4 = 15 packs of yogurt.
+He spends 15*$5.00 = $75.00 on yogurt in 30 days.
+True: Terry spends $5.00 on 4 servings of yogurt, which means each serving costs $1.25. 
+
+Since he eats 2 servings a day, he spends $2.50 on yogurt each day. 
+
+In 30 days, Terry spends $2.50 x 30 = $75.00 on yogurt.
+30.0 - 0: Terry eats 2 servings a day, which means he eats 2 * 30 = 60 servings in 30 days. If he spends $30 on yogurt and each 4 servings cost $5, then he buys 30 / 5 = 6 sets of 4 servings, which means he bought 6 * 4 = 24 servings. This total of 60 servings he ate and 24 servings he bought adds up to the total servings of yogurt he consumed, which is X. So: <code> X = 60 + 24  X = 84 </code> The answer is 84.
+75.0 - 3: Terry eats 2 servings of yogurt a day, so in 30 days he eats 2 x 30 = 60 servings. The cost of 4 servings is $5.00, so the cost of 1 serving is $5/4 = $1.25. If Terry spends $75.00 on yogurt in 30 days, we can set up the following equation:  <code> 60 servings x $1.25 = $75.00  75 = $75.00 </code>  Therefore, the answer is 60.
+verifier:1 accs:0 
+*************************
+*************************
+60st data
+Q: Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?
+GT : 18
+True: Janet is left with 16 - 3 - 4 = 9 eggs after breakfast and baking muffins.
+She makes 9 * $2 = $18 every day at the farmers' market.
+True:  Janet sells 16 - 3 - 4 = 9 eggs at the farmers' market every day.
+Therefore, Janet makes 9 * $2 = $18 every day at the farmers' market.
+True: Janet's ducks lay 16 eggs per day. She eats 3 for breakfast and uses 4 for baking muffins, leaving 16 - 3 - 4 = 9 eggs for sale at the farmers' market.
+At $2 per fresh duck egg, Janet makes 9 * $2 = $18 every day at the farmers' market.
+verifier:1 accs:1 
+*************************
+*************************
+61st data
+Q: John takes his dog for grooming, and the grooming cost is $100. Because he is a new customer, the pet groomer gives him a 30% discount. How much does the grooming cost?
+GT : 70
+True: After the 30% discount, John pays 70% of the original cost. 
+
+70% of $100 = 0.70 x $100 = $70 
+
+So, after the discount, the grooming cost is $70.
+True: With the 30% discount, the grooming cost would be $100 - ($100 * 0.30) = $70. So, the grooming cost for John would be $70.
+True: After the 30% discount, John pays $70 for the grooming.
+verifier:1 accs:1 
+*************************
+*************************
+62st data
+Q: Luke is building sandcastles on the beach. He notices that each layer of the castle has half the area of the layer below it. If he builds a 4-layer sandcastle with the top layer having an area of 16, what is the average area of each layer?
+GT : 60
+True: To find the average area of each layer, we can use the information given and work backwards. 
+
+If the top layer has an area of 16 and each layer has half the area of the layer below it, we can calculate the area of each layer:
+
+- Top layer: 16
+- Layer below: 16 * 2 = 32
+- Third layer: 32 * 2 = 64
+- Bottom layer: 64 * 2 = 128
+
+Now, we can find the total area of all 4 layers by adding them together:
+16 + 32 + 64 + 128 = 240
+
+To find the average area of each layer, we can divide the total area by the number of layers (4):
+240 / 4 = 60
+
+Therefore, the average area of each layer of the sandcastle is 60.
+False: The area of each layer follows a geometric progression with a common ratio of 1/2, starting from the top layer with an area of 16.
+
+Therefore, the areas of the layers are:
+Top layer: 16
+Second layer: 16 * (1/2) = 8
+Third layer: 8 * (1/2) = 4
+Bottom layer: 4 * (1/2) = 2
+
+The average area of each layer is the sum of the areas divided by the number of layers:
+(16 + 8 + 4 + 2) / 4 = 30 / 4 = 7.5
+
+Therefore, the average area of each layer in Luke's sandcastle is 7.5.
+True: To find the average area of each layer, we can calculate the area of each layer starting from the top layer and then divide by the total number of layers.
+
+Given that the top layer has an area of 16, the area of the layer below it would be 16 * 2 = 32, the next layer would have an area of 32 * 2 = 64, and the bottom layer would have an area of 64 * 2 = 128.
+
+The total area of all 4 layers is 16 + 32 + 64 + 128 = 240.
+
+Therefore, the average area of each layer is 240 / 4 = 60. 
+
+So, the average area of each layer in Luke's sandcastle is 60.
+60.0 - 1: The area of each layer of the sandcastle follows a pattern where each layer has half the area of the layer below it. If the top layer has an area of 16, then the second layer would have an area of 16 * 2 = 32, the third layer would have an area of 32 * 2 = 64, and the fourth layer would have an area of 64 * 2 = 128.  To find the average area of each layer, we add up the areas of all the layers and divide by the number of layers: <code> Average area = (16 + 32 + 64 + 128) / 4 = 240 / 4 = 60 </code>  Therefore, the answer for 'X' is 128.
+7.5 - 2: The area of each layer is halving, so we can calculate the area of each layer: - Top layer: 16 - Second layer: 16 * 2 = 32 - Third layer: 32 * 2 = 64 - Fourth layer: 64 * 2 = 128  The average area of each layer is (16 + 32 + 64 + 128) / 4 = 240 / 4 = 60.   Therefore, X (the area of the base layer) is 128.
+verifier:0 accs:1 
+*************************
+*************************
+63st data
+Q: Kylar goes to the store to buy glasses for his new apartment. One glass costs $5, but the second glass is only 60% of the first one's price. How much does he pay if he buys two glasses?
+GT : 64
+False: Kylar pays $5 for the first glass and $3 for the second glass (60% of $5). 
+Therefore, he pays a total of $5 + $3 = $8 for two glasses.
+False: If the first glass costs $5, then the second glass would cost $5 x 0.60 = $3. Therefore, Kylar would pay $5 + $3 = $8 for two glasses.
+False: The first glass costs $5 and the second glass costs 60% of that, which is $5 * 0.6 = $3. So Kylar pays $5 + $3 = $8 for two glasses.
+verifier:0 accs:0 
+*************************
+*************************
+64st data
+Q: Richard lives in a 15-story apartment building with 8 units per floor, 3/4 of which are occupied. How many units in the building are unoccupied?
+GT : 30
+True: There are a total of 15 floors with 8 units per floor, equaling 15 * 8 = 120 units in the building.
+If 3/4 of the units are occupied, then 1/4 of the units are unoccupied.
+1/4 of 120 units is equal to 120 / 4 = 30 units.
+Therefore, there are 30 units in the building that are unoccupied.
+True: There are a total of 15 floors * 8 units per floor = 120 units in the building.
+If 3/4 of the units are occupied, then 1/4 of the units are unoccupied.
+So, there are 120 units * 1/4 = 30 units that are unoccupied in the building.
+True: There are 8 units per floor and 3/4 of them are occupied, so there are 8 * (3/4) = 6 occupied units per floor.
+There are 15 floors in the building, so there are 15 * 6 = 90 occupied units in the building.
+There are 8 units per floor, so there are 8 * 15 = 120 units in the building in total.
+Therefore, there are 120 - 90 = 30 units in the building that are unoccupied.
+verifier:1 accs:1 
+*************************
+*************************
+65st data
+Q: Josh decides to try house flipping. He spends $80,000 to buy a house and then invests $50,000 in renovations. If he sells the house for $150,000, what is his profit?
+GT : 70000
+False:  Josh's profit would be $150,000 (selling price) - $80,000 (purchase price) - $50,000 (renovation costs) = $20,000.
+False: Josh's profit can be calculated by subtracting the total cost of buying and renovating the house from the selling price.
+
+Total cost = $80,000 (purchase) + $50,000 (renovations) = $130,000
+Profit = $150,000 (selling price) - $130,000 (total cost) = $20,000
+
+Therefore, Josh's profit from flipping the house is $20,000.
+False: Josh's profit can be calculated by subtracting his total costs from the selling price of the house.
+
+Total costs = $80,000 (purchase price) + $50,000 (renovations) = $130,000
+Profit = $150,000 (selling price) - $130,000 (total costs) = $20,000
+
+Josh's profit from flipping the house would be $20,000.
+verifier:0 accs:0 
+*************************
+*************************
+66st data
+Q: There are 20 students in a dance class. 20% of the students enrolled to learn modern dance, and 25% of the remaining students enrolled to learn jazz dance. What percentage of the students enrolled to learn hip-hop dance?
+GT : 60
+False: If 20% of the students enrolled to learn modern dance, then 80% of the students did not enroll in modern dance.
+80% of 20 students is 0.8 * 20 = 16 students.
+
+If 25% of the remaining 16 students enrolled to learn jazz dance, then 75% of the remaining students did not enroll in jazz dance.
+75% of 16 students is 0.75 * 16 = 12 students.
+
+Therefore, the percentage of students enrolled to learn hip-hop dance is 100% - 20% (modern) - 25% (jazz) = 55%.
+False: 55% of the students enrolled to learn hip-hop dance. 
+
+First, find the number of students enrolled in modern dance: 20 students * 20% = 4 students
+Next, find the number of remaining students: 20 students - 4 students = 16 students
+Then, find the number of students enrolled in jazz dance: 16 students * 25% = 4 students
+Finally, find the number of students enrolled in hip-hop dance: 16 students - 4 students - 4 students = 8 students
+Convert the number of students enrolled in hip-hop dance to a percentage of the total students: (8 students / 20 students) * 100% = 40% of the students enrolled to learn hip-hop dance.
+True: To find out the percentage of students enrolled to learn hip-hop dance, we first need to calculate the number of students enrolled in modern dance and jazz dance.
+
+20% of 20 students enrolled to learn modern dance:
+20% * 20 = 0.20 * 20 = 4 students
+
+Remaining students after modern dance enrollment: 
+20 students - 4 students = 16 students
+
+25% of the remaining students enrolled to learn jazz dance:
+25% * 16 = 0.25 * 16 = 4 students
+
+So, the total number of students enrolled in modern dance and jazz dance is 4 + 4 = 8 students.
+
+The number of students enrolled to learn hip-hop dance:
+20 students - 8 students = 12 students
+
+Therefore, the percentage of students enrolled to learn hip-hop dance is:
+(12 students / 20 students) * 100% = 60% of the students enrolled to learn hip-hop dance.
+55.0 - 0: Out of 20 students, 20% (4 students) enrolled to learn modern dance. So, there are 16 students remaining. Let the percentage of students enrolling for jazz dance be X%.  Therefore, the number of students enrolling for jazz dance is (X/100)*16. According to the given information, 55% (11 students) enrolled to learn hip-hop dance.  So, we can write the equation as: 4 + (X/100)*16 + 11 = 20 (X/100)*16 = 5 X*16 = 500 X = 31.25%  Therefore, X is equal to 31.25%.
+40.0 - 0: First, we need to find out how many students enrolled in modern dance. 20% of 20 students is: <code> 20 * 0.20 = 4 </code> So there are 4 students learning modern dance. This means there are 16 students remaining. Now, we need to find out what percentage of these remaining students are learning jazz dance. Let's represent this percentage as X. We know that 40% of the total students are learning hip-hop dance, which means: <code> 20 * 0.40 = 8 </code> So, the total number of students learning modern and hip-hop dance is 4 + 8 = 12. This means 16 - 12 = 4 students are learning jazz dance. Therefore, X = 4%.
+60.0 - 3: 20% of 20 students enrolled in modern dance, which is 20% of 20 = 0.20 * 20 = 4 students.  So, the remaining students are 20 - 4 = 16 students.  60% of the total students enrolled in hip-hop dance, which is 60% of 20 = 0.60 * 20 = 12 students.  Therefore, the number of students enrolled in jazz dance, including 'X'% of the remaining students, is: 16 - 12 = 4 students. Since X% of the remaining students enrolled in jazz dance, we can write: X% of 16 = 4 0.01 * X * 16 = 4 0.16X = 4 X = 4 / 0.16 X = 25 So, the answer is X = 25%.
+verifier:1 accs:0 
+*************************
+*************************
+67st data
+Q: Cecilia just bought a puppy. According to the vet's advice, she must feed the puppy 1 cup of dog food per day for the first 180 days. Then for the remainder of the puppy's life, she must feed it 2 cups of dog food per day. If one bag of dog food contains 110 cups, how many bags of dog food will Cecilia use in the first year?
+GT : 5
+True: In the first 180 days, Cecilia will use 1 cup/day * 180 days = 180 cups of dog food.
+For the remaining 185 days of the year, she will use 2 cups/day * 185 days = 370 cups of dog food.
+In total, for the first year, Cecilia will use 180 cups + 370 cups = 550 cups of dog food.
+Since one bag contains 110 cups, she will need 550 cups / 110 cups/bag = 5 bags of dog food for the first year.
+True: For the first 180 days, Cecilia will need 1 cup of dog food per day, which totals to 180 cups.
+
+For the remaining days in the first year (365 days - 180 days = 185 days), Cecilia will need 2 cups of dog food per day, which totals to 370 cups.
+
+In total, Cecilia will need 180 cups + 370 cups = 550 cups of dog food for the first year.
+
+If one bag contains 110 cups, then Cecilia will need 550 cups / 110 cups per bag = 5 bags of dog food for the first year. 
+
+Therefore, Cecilia will need 5 bags of dog food in the first year.
+True: For the first 180 days, Cecilia will need 1 cup of dog food per day, totaling 180 cups.
+For the remainder of the year (365 days - 180 days = 185 days), Cecilia will need 2 cups of dog food per day, totaling 185 * 2 = 370 cups.
+In total, Cecilia will need 180 + 370 = 550 cups of dog food in the first year.
+One bag contains 110 cups, so Cecilia will need 550 / 110 = 5 bags of dog food in the first year.
+verifier:1 accs:1 
+*************************
+*************************
+68st data
+Q: Cars are lining up on the highway. Some cars passed the traffic jam in the first 15 minutes, then another 20 cars in the remaining 15 minutes. Five cars took the highway exit, so they didn't need to pass through the traffic jam. If there were originally 30 cars on the highway, how many cars passed through the traffic jam in the first 15 minutes?
+GT : 5
+False: Out of the original 30 cars, 5 took the highway exit, leaving 25 cars remaining on the highway. 
+Let X be the number of cars that passed through the traffic jam in the first 15 minutes. 
+In total, 20 + X cars passed through the traffic jam. 
+So, 25 - X cars remained in the traffic jam after the first 15 minutes. 
+But we also know that some cars passed the traffic jam in the first 15 minutes, so the number of cars remaining in the traffic jam should be less than 25. 
+Therefore, X must be less than 25. 
+Since X represents the cars that passed through the traffic jam in the first 15 minutes, we know that X is the answer. 
+
+Therefore, X = 15 cars passed through the traffic jam in the first 15 minutes.
+True: There were originally 30 cars on the highway. However, 5 cars took the exit and didn't pass through the traffic jam, so there were 30 - 5 = 25 cars that needed to pass through the jam.
+In the first 15 minutes, some cars passed the traffic jam, then another 20 cars in the remaining 15 minutes, so a total of 25 - 20 = 5 cars passed the traffic jam in the first 15 minutes. Answer: 5 cars.
+False: There were originally 30 - 5 = 25 cars that needed to pass through the traffic jam.
+If 20 cars passed through the traffic jam in the remaining 15 minutes, then 25 - 20 = 5 cars must have passed through the traffic jam in the first 15 minutes.
+15.0 - 1: We know that originally there were 30 cars on the highway. 15 cars passed through the traffic jam in the first 15 minutes, so there were 30 - 15 = 15 cars left to pass through the traffic jam after 15 minutes.  Let's denote the first X minutes as T, and the remaining X minutes as T. In T minutes, some cars passed the traffic jam, and in T minutes, another 20 cars passed the traffic jam. So, the total number of cars passing through the traffic jam in T minutes and T minutes is (X) + (X+20).  After 5 cars took the highway exit and didn't need to pass through the traffic jam, there were 15 cars left. So, we can write the following equation:  15 + T + T + 20 - 5 = 15 2T + 30 = 15 2T = 15 - 30 2T = -15 T = -15 / 2 T = -7.5  The answer for X would be -7.5, which is not a realistic answer in this context. So, there may be a mistake in the information provided in the question.
+5.0 - 3: Let's break it down: - In the first X minutes, some cars passed the traffic jam. - Then, in the remaining X minutes, another 20 cars passed the traffic jam. - Five cars took the highway exit and didn't pass through the traffic jam. - Originally, there were 30 cars on the highway. - In the first 15 minutes, five cars passed through the traffic jam.  So, if we set up an equation based on the information given: - In the first X minutes, 5 cars passed the traffic jam, so X = 15 minutes. - In the next X minutes (15 minutes), 20 cars passed the traffic jam. - Five cars took the highway exit, so they didn't pass through the traffic jam. Therefore, the total number of cars that passed through the traffic jam is 5 (from the first 15 minutes) + 20 (from the next 15 minutes) = 25 cars.  Therefore, the answer is X = 15 minutes.
+verifier:1 accs:0 
+*************************
+*************************
+69st data
+Q: Gene is sewing a quilt using old commemorative T-shirts from each vacation. He has one T-shirt from each vacation. Each T-shirt forms a quilt patch. Each row is sewn from patches of different vacations per year. He vacations 4 times a year and has been doing this since he was 23 years old. He is now 34 years old. How many quilt patches does he have in total?
+GT : 44
+True: Gene has been sewing patches for 11 years (34 years old - 23 years old = 11 years).
+He vacations 4 times a year, so he has 4 patches for each year.
+Therefore, Gene has a total of 11 years x 4 patches = 44 quilt patches in total.
+True: Gene has been sewing quilts for 11 years (34 years old - 23 years old = 11 years).
+He vacations 4 times a year, so he creates 4 quilt patches each year.
+Therefore, Gene has created a total of 4 quilt patches/year x 11 years = 44 quilt patches in total.
+True: Since Gene has been vacationing 4 times a year and has been doing this since he was 23 years old, he has been collecting T-shirts for 11 years (34 - 23 = 11 years). 
+
+Therefore, the total number of quilt patches Gene has is 11 years x 4 vacations per year = 44 quilt patches.
+verifier:1 accs:1 
+*************************
+*************************
+70st data
+Q: Assuming Raymond's laundry amount is half of Sarah's, and Sarah's laundry amount is four times that of David's. If Sarah's laundry amount is 400 pounds, calculate the difference in laundry amounts between Raymond and David.
+GT : 100
+True: First, we need to find David's laundry amount. Since Sarah's laundry amount is four times that of David's, we can divide Sarah's laundry amount by 4: 400 pounds / 4 = 100 pounds.
+
+Next, we find Raymond's laundry amount, which is half of Sarah's laundry amount: 400 pounds / 2 = 200 pounds.
+
+Now, we can calculate the difference in laundry amounts between Raymond and David: Raymond's laundry amount (200 pounds) - David's laundry amount (100 pounds) = 100 pounds. 
+
+Therefore, the difference in laundry amounts between Raymond and David is 100 pounds.
+True: If Sarah's laundry amount is 400 pounds, then David's laundry amount would be 400/4 = 100 pounds.
+Raymond's laundry amount is half of Sarah's, so it would be 400/2 = 200 pounds.
+The difference in laundry amounts between Raymond and David would be 200 - 100 = 100 pounds.
+True: First, we need to determine David's laundry amount by dividing Sarah's laundry amount by 4:
+David's laundry amount = 400 pounds / 4 = 100 pounds
+
+Next, we calculate Raymond's laundry amount by dividing Sarah's laundry amount by 2:
+Raymond's laundry amount = 400 pounds / 2 = 200 pounds
+
+Finally, we find the difference in laundry amounts between Raymond and David:
+Difference = Raymond's laundry amount - David's laundry amount
+Difference = 200 pounds - 100 pounds
+Difference = 100 pounds
+
+Therefore, the difference in laundry amounts between Raymond and David is 100 pounds.
+verifier:1 accs:1 
+*************************
+*************************
+71st data
+Q: Candice put 80 sticky notes in her wallet before heading to work at the coffee shop. On her way, she stopped at a store and bought a pack of sticky notes; during work, she put a sticky note on each of 220 different coffee cups. If she has 23 sticky notes left, how many sticky notes were in the pack she bought?
+GT : 163
+False: Let's break down the problem:
+Candice started with 80 sticky notes in her wallet.
+She bought a pack of sticky notes and put one on each of the 220 coffee cups.
+After work, she has 23 sticky notes left.
+
+Therefore, the total number of sticky notes she used at work is:
+80 (from her wallet) + 220 (put on coffee cups) = 300 sticky notes
+
+Since she has 23 sticky notes left, the total number of sticky notes she started with is:
+300 (used) + 23 (left) = 323 sticky notes
+
+So, the number of sticky notes in the pack she bought is:
+323 (total) - 80 (initial) = 243 sticky notes.
+
+Therefore, Candice bought a pack of 243 sticky notes.
+False: Candice started with 80 sticky notes in her wallet and used 220 sticky notes at work, leaving her with 23 sticky notes. This means she used a total of 80 + 220 - 23 = 277 sticky notes.
+
+Since she purchased a pack of sticky notes, the number of sticky notes in the pack would be the difference between the total number of sticky notes she used and the number she started with: 277 - 80 = 197 sticky notes were in the pack she bought.
+True: To find out how many sticky notes were in the pack she bought, we need to subtract the total number of sticky notes she used at work (220) and the number of sticky notes she has left (23) from the total number she started with (80).
+
+Total sticky notes = 80 + X (number of notes in the pack she bought)
+Used at work = 220
+Left over = 23
+
+80 + X - 220 - 23 = 0
+80 + X - 243 = 0
+X - 163 = 0
+X = 163
+
+Therefore, Candice bought a pack of 163 sticky notes.
+243.0 - 1: Candice started with 80 sticky notes. She bought a pack of 243 sticky notes and used 220 of them at work. So, she must have 80 + 243 - 220 sticky notes left. <code> X = 80 + 243 - 220  X = 103 </code> The answer is 103.
+197.0 - 0: Candice started with 80 sticky notes. She bought a pack of 197 sticky notes and used 220 during work, leaving X sticky notes. <code> 80 + 197 - 220 = X  X = 80 + 197 - 220  X = 57 </code> The answer is 57.
+163.0 - 7: Candice started with 80 sticky notes. She bought a pack of 163 sticky notes and used one on each of the 220 coffee cups. This means she used a total of 220 + 163 = 383 sticky notes. So, the number of sticky notes she has left is: <code> X = 80 - 383  X = -303 </code> Since it is not possible to have a negative number of sticky notes, there seems to be an error in the question or calculations.
+verifier:1 accs:0 
+*************************
+*************************
+72st data
+Q: Gretchen has 110 coins. Gold coins are 30 more than silver coins. How many gold coins does Gretchen have?
+GT : 70
+True: Let the number of silver coins be x.
+Then the number of gold coins would be x + 30.
+Since Gretchen has 110 coins in total:
+x + (x + 30) = 110
+2x + 30 = 110
+2x = 80
+x = 40
+Gretchen has x + 30 = 40 + 30 = 70 gold coins.
+True:  Let's call the number of silver coins x. 
+So the number of gold coins would be x + 30.
+And the total number of coins is 110:
+x + (x + 30) = 110
+2x + 30 = 110
+2x = 80
+x = 40
+
+Therefore, Gretchen has 40 silver coins and 40 + 30 = 70 gold coins.
+True: Let's use algebra to solve this problem.
+
+Let's say the number of gold coins Gretchen has is represented by G, and the number of silver coins she has is represented by S.
+
+We know that Gretchen has a total of 110 coins, so we can write the equation: G + S = 110
+
+We also know that gold coins are 30 more than silver coins, so we can write another equation: G = S + 30
+
+Now we can use substitution to solve for the number of gold coins:
+
+Substitute the second equation into the first equation:
+(S + 30) + S = 110
+2S + 30 = 110
+2S = 80
+S = 40
+
+Now that we know Gretchen has 40 silver coins, we can find the number of gold coins using the second equation:
+G = 40 + 30
+G = 70
+
+Therefore, Gretchen has 70 gold coins.
+verifier:1 accs:1 
+*************************
+*************************
+73st data
+Q: Harry slept for 9 hours last night. His friend James only slept for 2/3 the amount of time Harry did. How many more hours did Harry sleep than James?
+GT : 3
+True: Harry slept for 9 hours, while James slept for 2/3 of 9 hours = 6 hours.
+Therefore, Harry slept for 9 - 6 = 3 more hours than James.
+True: Harry slept for 9 hours, and James slept for 2/3 * 9 hours = 6 hours.
+Therefore, the difference in hours slept between Harry and James is 9 - 6 = 3 hours. 
+Harry slept 3 more hours than James.
+True: Harry slept for 9 hours, and James slept for 2/3 of that amount, which is 6 hours (9 * 2/3). Therefore, Harry slept for 9 - 6 = 3 more hours than James.
+verifier:1 accs:1 
+*************************
+*************************
+74st data
+Q: A mechanic charges different prices for repairing truck tires and car tires. He charges $60 for a truck tire and $40 for a car tire. On Thursday, the mechanic repaired 6 truck tires and 4 car tires. On Friday, he repaired 12 car tires but no truck tires. How much more money did the mechanic make on the higher earning day?
+GT : 40
+True: On Thursday, the mechanic made $60 x 6 = $360 from repairing truck tires.
+He also made $40 x 4 = $160 from repairing car tires.
+Therefore, on Thursday, the mechanic made a total of $360 + $160 = $520.
+
+On Friday, the mechanic made $40 x 12 = $480 from repairing car tires.
+
+The mechanic made $480 - $520 = $40 more on the higher earning day, which was Friday.
+True: On Thursday, the mechanic made $60 x 6 = $360 from repairing truck tires.
+He also made $40 x 4 = $160 from repairing car tires on Thursday.
+In total, on Thursday, the mechanic made $360 + $160 = $520.
+
+On Friday, the mechanic made $40 x 12 = $480 from repairing car tires.
+
+Therefore, the mechanic made $480 - $520 = $40 more money on Friday, which was the higher earning day.
+True: On Thursday, the mechanic earned $60 x 6 = $360 for repairing truck tires.
+He also earned $40 x 4 = $160 for repairing car tires.
+Therefore, on Thursday, he made $360 + $160 = $520.
+
+On Friday, the mechanic earned $40 x 12 = $480 for repairing car tires.
+
+Therefore, the mechanic made $480 - $520 = $40 more on Friday than on Thursday.
+verifier:1 accs:1 
+*************************
+*************************
+75st data
+Q: A basket contains 25 oranges, of which 1 is bad, 20% are unripe, 2 are sour, and the rest are good. How many good oranges are there?
+GT : 17
+False: There are 18 good oranges. 
+
+To calculate this, first subtract the number of bad, unripe, and sour oranges from the total:
+25 total oranges - 1 bad orange - 0.20(25) unripe oranges - 2 sour oranges = 18 good oranges.
+True: There are 20 good oranges in the basket. 
+
+Explanation: 
+- 1 orange is bad
+- 20% of 25 = 5 oranges are unripe
+- 2 oranges are sour
+Therefore, the number of good oranges = 25 total oranges - 1 bad orange - 5 unripe oranges - 2 sour oranges = 17 good oranges
+True: There are 22 good oranges in the basket. 
+
+Total oranges = 25 
+Bad oranges = 1 
+Unripe oranges = 20% of 25 = 0.2 * 25 = 5 
+Sour oranges = 2 
+
+Therefore, the number of good oranges = Total oranges - Bad oranges - Unripe oranges - Sour oranges 
+= 25 - 1 - 5 - 2 
+= 17 
+
+So, there are 17 good oranges in the basket.
+18.0 - 0: There are 25 oranges in total. 1 is bad, 2 are sour, and 18 are good. So, the unripe oranges can be calculated as: <code> 25 - 1 - 2 - 18 = X  X = 4 </code> So, X% of the oranges are unripe. The answer is 4%.
+17.0 - 6: Out of 25 oranges, 1 is bad and 2 are sour. So there are (25 - 1 - 2) = 22 good oranges. If there are X% unripe oranges, then the number of unripe oranges can be calculated as X% of 25. Finally, we can write the equation as:  \(X\% of 25 + 22 = 17\)  \(0.01X*25 + 22 = 17\)  \(0.25X + 22 = 17\)  \(0.25X = 17 - 22\)  \(0.25X = -5\)  \(X = \frac{-5}{0.25}\)  \(X = -20\)  Since you cannot have a negative percentage, this scenario is not possible.
+verifier:1 accs:0 
+*************************
+*************************
+76st data
+Q: A soccer team plays 22 games. They win 8 more games than they lose. How many games do they win?
+GT : 15
+True: Let x be the number of games they lose. 
+Therefore, the number of games they win is x + 8.
+
+The total number of games they play is the sum of the games they win and the games they lose: x + (x+8) = 22
+2x + 8 = 22
+2x = 14
+x = 7
+
+Therefore, they lose 7 games and win x + 8 = 7 + 8 = 15 games.
+True: Let x be the number of games they lose. Therefore, the number of games they win would be x + 8.
+Since they play 22 games in total, we have the equation:
+x + (x + 8) = 22
+2x + 8 = 22
+2x = 14
+x = 7
+Therefore, they lose 7 games and win 7 + 8 = 15 games.
+True: Let x be the number of games they lose. 
+Then the number of games they win would be x + 8. 
+Therefore, the total number of games played would be x + (x + 8) = 22. 
+Simplifying, we get 2x + 8 = 22. 
+Subtracting 8 from both sides gives us 2x = 14. 
+Dividing by 2 gives us x = 7, so the number of games they lose is 7. 
+Therefore, the number of games they win would be 7 + 8 = 15. 
+So, they win 15 games.
+verifier:1 accs:1 
+*************************
+*************************
+77st data
+Q: Lee used to complete a 400-meter hurdle race 2 seconds faster than Gerald, but Gerald improved his speed by 10% due to dietary changes. If Lee completes the 400-meter hurdle in 38 seconds, how many seconds does it take Gerald to complete it after his dietary improvement?
+GT : 36
+False: First, we need to find out how fast Lee used to complete the 400-meter hurdle race before Gerald's dietary improvement. Since he completed it 2 seconds faster than Gerald, and Gerald now completes it in x seconds, we can create the equation:
+
+Lee's time = Gerald's time + 2 seconds
+
+38 = x + 2
+x = 36 seconds
+
+Now, we need to find out how fast Gerald completes the 400-meter hurdle race after his dietary improvement. Since he improved his speed by 10%, we can calculate his new time:
+
+New time = Old time * (1 - 0.10)
+New time = 36 * 0.90
+New time = 32.4 seconds
+
+Therefore, after his dietary improvement, it takes Gerald 32.4 seconds to complete the 400-meter hurdle race.
+True: First, we need to find out how fast Lee used to complete the 400-meter hurdle race. Since Lee used to complete the race 2 seconds faster than Gerald, and Lee currently completes it in 38 seconds, Gerald used to complete the race in 38 + 2 = 40 seconds.
+
+Next, we need to calculate how much faster Gerald can now complete the race after his 10% improvement in speed. Gerald's new speed is 40 * 0.10 = 4 seconds faster.
+
+Therefore, Gerald can now complete the 400-meter hurdle race in 40 - 4 = 36 seconds after his dietary improvement.
+False: Lee completes the 400-meter hurdle race in 38 seconds. We know that Lee used to complete it 2 seconds faster than Gerald, so Gerald's original time must be 40 seconds.
+
+After Gerald's speed improved by 10%, his new time can be calculated by multiplying his original time by 0.9 (100% - 10% = 90%).
+
+New time for Gerald = 40 seconds x 0.9 = 36 seconds
+
+Therefore, it takes Gerald 36 seconds to complete the 400-meter hurdle race after his dietary improvement.
+400.0 - 0: Originally, Lee completed the 400-meter hurdle race 2 seconds faster than Gerald. Let's say Gerald completes it in Y seconds. So we can write the following equations:  Lee: 400 meters in (Y-2) seconds Gerald: 400 meters in Y seconds  After Gerald's dietary changes, his speed improved by X%. So his new time to complete the 400-meter hurdle race is Y*(1-X/100) seconds.  Given that Lee completes the race in 38 seconds and Gerald completes it in 400 seconds after the improvement, we can set up the following equations:  Lee: 400 meters in 38 seconds Gerald: 400 meters in 400 seconds  So, we have: <code>400 / (Y-2) = 38  Y = 400 / 38 + 2  Y = 10.526  400 / (Y*(1-X/100)) = 400  1 / (1-X/100) = 1  X / 100 = 0  X = 0 </code>  The answer is 0.
+36.0 - 3: Lee used to complete the race 2 seconds faster than Gerald, so Gerry's original time must have been 38 seconds. After his dietary changes, Lee completes the race in 38 seconds and Gerald completes the race in 36 seconds. Let X be the percentage improvement in Gerald's speed due to dietary changes.  Since time is inversely proportional to speed, the percentage improvement in speed can be calculated using the formula:  \[ \frac{Time_{initial} - Time_{improved}}{Time_{initial}} = \frac{X}{100} \]  Plugging in the values:  \[ \frac{38 - 36}{38} = \frac{X}{100} \] \[ \frac{2}{38} = \frac{X}{100} \] \[ \frac{1}{19} = \frac{X}{100} \] \[ X = \frac{100}{19} \approx 5.26\% \]  Therefore, the answer is approximately 5.26%.
+verifier:1 accs:0 
+*************************
+*************************
+78st data
+Q: Two girls each receive 1/6 of 24 liters of water. Then a boy receives 6 liters of water. How much water is left?
+GT : 10
+True: The two girls received a total of 1/6 * 24 = 4 liters each, which is a total of 2 * 4 = 8 liters.
+After the boy receives 6 liters of water, there will be 24 - 8 - 6 = 10 liters of water left.
+True: The two girls received a total of 1/6 x 24 = 4 liters each, so they received 4 + 4 = 8 liters.
+After the boy receives his 6 liters, a total of 8 + 6 = 14 liters of water have been used.
+Therefore, 24 - 14 = 10 liters of water are left.
+True: There were 24 liters of water to start with. Each girl received 1/6 of that amount, so together they received 1/3 of 24 liters, which is 8 liters (1/3 * 24).
+
+After the girls received their water, there were 16 liters left (24 - 8).
+
+Then the boy received 6 liters, leaving 10 liters of water remaining (16 - 6).
+
+Therefore, there are 10 liters of water left.
+verifier:1 accs:1 
+*************************
+*************************
+79st data
+Q: Mishka buys 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. Shorts cost $16.50 each, pants $22.50 each, and shoes $42 each. How much does Mishka spend in total on these clothes?
+GT : 243
+True: Mishka spends $16.50 x 3 = $49.50 on shorts.
+She spends $22.50 x 3 = $67.50 on pants.
+She spends $42 x 3 = $126 on shoes.
+Therefore, Mishka spends a total of $49.50 + $67.50 + $126 = $243 on these clothes.
+True: The total cost of the shorts is 3 * $16.50 = $49.50
+The total cost of the pants is 3 * $22.50 = $67.50
+The total cost of the shoes is 3 * $42 = $126
+Adding all these costs together, Mishka spends $49.50 + $67.50 + $126 = $243 on these clothes.
+True: First, calculate the total cost of the shorts:
+3 pairs of shorts * $16.50 = $49.50
+
+Next, calculate the total cost of the pants:
+3 pairs of pants * $22.50 = $67.50
+
+Finally, calculate the total cost of the shoes:
+3 pairs of shoes * $42 = $126
+
+Add up the costs of all the items:
+$49.50 + $67.50 + $126 = $243
+
+Mishka spends a total of $243 on these clothes.
+verifier:1 accs:1 
+*************************
+*************************
+80st data
+Q: Stephen orders household items online. His final bill amount is $40.00. Because this order is processed through a delivery provider, they add a 25% fee on his final bill total and charge him a $3.00 delivery fee. Stephen also adds a $4.00 tip. After adding these additional charges, what is the final price Stephen pays for the household items?
+GT : 57
+True: First, we calculate the 25% fee on Stephen's final bill total:
+
+25% of $40.00 = $40.00 x 0.25 = $10.00
+
+Next, we add the delivery fee and the tip to get the total additional charges:
+
+$10.00 (25% fee) + $3.00 (delivery fee) + $4.00 (tip) = $17.00
+
+Finally, we add the total additional charges to Stephen's final bill amount:
+
+$40.00 (final bill) + $17.00 (additional charges) = $57.00
+
+Therefore, the final price Stephen pays for the household items, including the additional charges, is $57.00.
+True: Final bill amount: $40.00
+25% fee: $40.00 * 0.25 = $10.00
+Delivery fee: $3.00
+Tip: $4.00
+
+Total additional charges: $10.00 + $3.00 + $4.00 = $17.00
+
+Final price Stephen pays: $40.00 + $17.00 = $57.00
+
+Therefore, the final price Stephen pays for the household items is $57.00.
+True: The delivery provider adds a 25% fee on Stephen's final bill amount of $40.00, which is 40 * 0.25 = $10.00.
+Therefore, the subtotal before the delivery fee and tip is $40.00 + $10.00 = $50.00.
+After adding the $3.00 delivery fee, the total becomes $50.00 + $3.00 = $53.00.
+After Stephen adds a $4.00 tip, the final price he pays for the household items is $53.00 + $4.00 = $57.00.
+verifier:1 accs:1 
+*************************
+*************************
+81st data
+Q: Emily has four children named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson, 2 years younger than Corey. If James is 10 years old and 1 year younger than Corey, how old is Jackson?
+GT : 4
+True: Jackson is 4 years old. 
+
+Explanation:
+Let's start by setting up the relationships between the children's ages:
+- Amy is 5 years older than Jackson: Amy = Jackson + 5
+- Amy is 2 years younger than Corey: Amy = Corey - 2
+- James is 1 year younger than Corey: James = Corey - 1
+- Since James is 10 years old: James = 10 years
+
+Substitute the value of James into the equation: Corey - 1 = 10
+Corey = 11 years old
+
+Now substitute the value of Corey into the equation for Amy: Amy = 11 - 2
+Amy = 9 years old
+
+Finally, use the equation for Amy being 5 years older than Jackson to find Jackson's age: Amy = Jackson + 5
+9 = Jackson + 5
+Jackson = 4 years old
+False: Jackson is 8 years old.
+False: Jackson is 14 years old.
+4.0 - 6: Let's analyze the information given: - Amy is 5 years older than Jackson - Amy is 2 years younger than Corey - James is 1 year younger than Corey - Jackson is 4 years old  From the information given, we can determine the following ages: - Jackson is 4 years old - Amy is 4 + 5 = 9 years old - Corey is 9 - 2 = 7 years old - James is 7 - 1 = 6 years old  Therefore, the answer is X = 6 years old.
+8.0 - 1: Amy is 5 years older than Jackson, which means Amy is 8.0 + 5 = 13.0 years old. Also, Amy is 2 years younger than Corey, so Corey is 13.0 + 2 = 15.0 years old. Since James is 1 year younger than Corey, James is 15.0 - 1 = 14.0 years old. Therefore, the answer is:  X = 14.0  So, James is 14 years old.
+14.0 - 2: Let's start by setting up the relationships between the ages: - Amy = Jackson + 5 - Amy = Corey - 2 - James = Corey - 1 - Jackson = 14  We know Jackson's age is 14, so we can substitute that in for Jackson in the equations involving Amy's age:  - Amy = 14 + 5 - Amy = 19  - Amy = Corey - 2 - 19 = Corey - 2 - Corey = 21  Now, we can find James's age using the relationship with Corey:  - James = Corey - 1 - James = 21 - 1 - James = 20  Therefore, the answer is that James is 20 years old.
+verifier:1 accs:1 
+*************************
+*************************
+82st data
+Q: According to the nutritional information, each serving of chips in a bag contains 250 calories. If a 300-gram bag of chips contains 5 servings, and your daily calorie target is 2,000 calories and you've already consumed 1,800 calories, how many grams of chips can you still eat?
+GT : 48
+False: Each serving of chips is 250 calories, so for 5 servings in a 300-gram bag, the total calories in the bag would be 5 servings * 250 calories = 1,250 calories.
+
+If you have already consumed 1,800 calories and your daily target is 2,000 calories, you have 2,000 - 1,800 = 200 calories left to consume.
+
+To find out how many grams of chips you can still eat, you can calculate the remaining calories as follows:
+200 calories / 250 calories per serving = 0.8 servings_left.
+
+Since there are 5 servings in the bag, you can still eat 5 - 0.8 = 4.2 servings.
+
+Therefore, you can still eat 4.2 servings * (300 grams / 5 servings) = 252 grams of chips.
+False: First, calculate how many calories you have left to consume for the day:
+Daily calorie target - Calories already consumed = Calories left to consume
+2,000 - 1,800 = 200 calories left to consume
+
+Next, calculate how many servings of chips you can still have:
+Calories left to consume / Calories per serving = Servings you can still have
+200 / 250 = 0.8 servings
+
+Since you can't have a fraction of a serving, you can have a maximum of 0.6 servings.
+
+Finally, calculate how many grams of chips that would be:
+0.6 servings x 300 grams per bag = 180 grams of chips
+
+Therefore, you can still eat 180 grams of chips if you've already consumed 1,800 calories and your daily calorie target is 2,000 calories.
+False: First, calculate how many calories you have left for the day:
+Daily calorie target - Calories already consumed = Remaining calories
+2,000 - 1,800 = 200 calories remaining
+
+Next, determine how many calories are in one serving of chips:
+250 calories per serving x 5 servings = 1,250 calories in the entire bag
+
+Then, calculate the number of calories in the remaining grams of chips you can eat:
+1,250 calories in the entire bag - Remaining calories = Calories in the chips you can still eat
+1,250 - 200 = 1,050 calories
+
+Finally, calculate how many grams of chips you can still eat based on the remaining calories:
+1,050 calories / 250 calories per serving = 4.2 servings
+4.2 servings x 60 grams per serving = 252 grams
+
+Therefore, you can still eat 252 grams of chips.
+252.0 - 0:  Let's break it down: - Each serving of chips contains 2X0 calories. - A 300-gram bag of chips contains X servings. - Your daily calorie target is 2,000 calories. - You've already consumed 1,800 calories. - You can still eat 252.0 grams of chips.  To find the value of X: - Total calories in the bag of chips = X * 2X0 - Remaining calories you can consume = 2,000 - 1,800 = 200 - Calories in 252.0 grams of chips = (252.0 / 300) * X * 2X0  Since you can consume the calories from the remaining chips: - (252.0 / 300) * X * 2X0 = 200 - (21 / 25) * X * 20 = 200 - (21 * X * 20) / 25 = 200 - 42X = 5000 - X = 5000 / 42 - X = 119.05  Therefore, the answer is X = 119.
+2000.0 - 0: Each serving of chips contains 2X0 calories, so a 300-gram bag of chips contains X servings. If your daily calorie target is 2000 calories and you've already consumed 1800 calories, you can still eat 2000 grams of chips.   Let's first find out how many calories are in the bag of chips: 300 grams of chips / X servings = 2000 calories  Now, let's find the value of X: 300 / X = 2000 X = 300 / 2000 X = 0.15  So, each serving of chips is 150 calories and the bag contains 2 servings. The answer is X = 2.
+verifier:0 accs:0 
+*************************
+*************************
+83st data
+Q: During a 60-mile bike ride, Henry stops twice. He stops after riding 20 miles and again 15 miles before the end of the trip. How many miles does he ride between the first and second stops?
+GT : 25
+False: Henry rides 60 - 15 = 45 miles between the first and second stops.
+True: He rides a total of 25 miles between the first and second stops - 60 miles (total distance) - 20 miles (first stop) - 15 miles (second stop) = 25 miles.
+True: Henry rides 20 miles before his first stop and 15 miles before his second stop, so he rides 60 - 20 - 15 = 25 miles between the first and second stops.
+45.0 - 1: Henry stops twice during a 60-mile bike ride. He stops after riding 20 miles and X miles before the end of the trip. So, the distance between the two stops is 60 - X miles. Given that he rode 45 miles between the stops, we can write the following equation:  60 - X - 20 = 45 40 - X = 45 X = 40 - 45 X = 5  The answer is 5.
+25.0 - 4: Henry stops twice during the 60-mile bike ride. He rides 25 miles between the first and second stops. So, the distance covered before the second stop is 25 miles. Therefore, we can write the following equation: <code> 60 = 20 + 25 + X  60 = 45 + X  X = 60 - 45  X = 15 </code> The answer is 15.
+verifier:1 accs:0 
+*************************
+*************************
+84st data
+Q: I have 10 liters of orange juice drink, two-thirds of which is water, and I want to add it to 15 liters of pineapple juice drink, three-fifths of which is water, but I spilled 1 liter of orange juice while pouring. How much water is in the remaining 24 liters of drink?
+GT : 15
+False: First, let's calculate how much orange juice is left after spilling 1 liter:
+10 liters - 1 liter = 9 liters of orange juice left
+
+Next, let's calculate the amount of water in the remaining orange juice:
+2/3 * 9 liters = 6 liters of water in the remaining orange juice
+
+Now, let's calculate the amount of water in the 15 liters of pineapple juice drink:
+3/5 * 15 liters = 9 liters of water in the pineapple juice drink
+
+Finally, let's add the water from the remaining orange juice and the pineapple juice drink to find the total amount of water in the 24 liters of drink:
+6 liters + 9 liters = 15 liters of water in the 24 liters of drink
+
+Therefore, there are 15 liters of water in the remaining 24 liters of drink.
+True: First, let's calculate the amount of water in the original orange juice drink:
+
+10 liters of orange juice drink x 2/3 = 6.67 liters of water (rounded to 2 decimal places)
+
+Since you spilled 1 liter of orange juice, you now have 9 liters of orange juice drink with water content of:
+
+9 liters of orange juice drink x 2/3 = 6 liters of water
+
+Next, let's calculate the amount of water in the pineapple juice drink:
+
+15 liters of pineapple juice drink x 3/5 = 9 liters of water
+
+Combining the remaining orange juice drink and the pineapple juice drink:
+
+6 liters of water (from the remaining orange juice drink) + 9 liters of water (from the pineapple juice drink) = 15 liters of water
+
+Therefore, in the remaining 24 liters of drink, there are 15 liters of water.
+False: First, calculate the amount of orange juice drink remaining after spilling 1 liter: 
+10 liters - 1 liter = 9 liters
+
+Calculate the amount of water in the remaining orange juice drink:
+9 liters * 2/3 = 6 liters of water
+
+Calculate the amount of pineapple juice drink:
+15 liters
+
+Calculate the amount of water in the pineapple juice drink:
+15 liters * 3/5 = 9 liters of water
+
+Add the water from the remaining orange juice drink and the water from the pineapple juice drink:
+6 liters + 9 liters = 15 liters
+
+Therefore, there are 15 liters of water in the remaining 24 liters of drink.
+24.0 - 0: Let's break down the information given:  1. The orange juice drink is X0 liters, with two-thirds of it being water. 2. The pineapple juice drink is X5 liters, with three-fifths of it being water. 3. There was X liter of orange juice spilled while pouring. 4. The remaining drink has 24.0 liters of water.  From the first two points, we can write equations: For orange juice drink: 2/3 * X0 = water in orange juice For pineapple juice drink: 3/5 * X5 = water in pineapple juice  From the third point, we know that X liter of orange juice was spilled. So the total amount of orange juice left is X0 - X.  The total water in the remaining drink is the sum of the water in the orange juice and pineapple juice, which equals 24 liters. So, the equation becomes: water in orange juice + water in pineapple juice = 24  Substitute the equations we wrote earlier and solve for X: 2/3 * X0 + 3/5 * X5 = 24 2/3 * X0 + 3/5 * (X0 + 5) = 24 2/3 * X0 + 3/5 * X0 + 3/5 * 5 = 24 2/3 * X0 + 3/5 * X0 + 3 = 24 (10/15)X0 + (9/15)X0 + 3 = 24 (19/15)X0 + 3 = 24 (19/15)X0 = 21 X0 = 21 * (15/19) X0 ≈ 16.58  The answer for 'X' liter of orange juice is approximately 16.58.
+15.0 - 1: Let's break down the information given: - X0 liters of orange juice drink, two-thirds of which is water - X5 liters of pineapple juice drink, three-fifths of which is water - X liters of orange juice spilled while pouring - There is 15.0 liters of water in the remaining 24 liters of the drink  From the first two pieces of information: - Orange juice drink: water content = (2/3)X0 - Pineapple juice drink: water content = (3/5)X5  Given that there are 15.0 liters of water in the remaining 24 liters of the drink, we can write the equation: (2/3)X0 + (3/5)X5 - X = 15  Since the total drink after mixing is 24 liters, we can also write: X0 + X5 - X = 24  Now we can solve these two equations simultaneously to find the value of 'X'.
+verifier:1 accs:0 
+*************************
+*************************
+85st data
+Q: Tom's boat travels 10 miles per hour. He sails from 1 PM to 4 PM. Then, he returns at a speed of 6 miles per hour. How long does it take him to return?
+GT : 5
+True: Tom traveled for a total of 3 hours (from 1 PM to 4 PM). 
+Tom traveled 10 miles per hour for 3 hours, so he traveled a total of 30 miles when going out. 
+To return at 6 miles per hour for a distance of 30 miles, it will take him 30 miles / 6 miles per hour = 5 hours to return.
+True:  Tom travels for a total of 3 hours (1 PM to 4 PM) at a speed of 10 miles per hour, so he covers a distance of 3 hours x 10 miles per hour = 30 miles.
+
+To return at a speed of 6 miles per hour, it will take Tom 30 miles / 6 miles per hour = 5 hours to return.
+True: Tom traveled for 3 hours at 10 miles per hour on his way out, so he covered a distance of 3 hours * 10 miles per hour = 30 miles.
+To return at a speed of 6 miles per hour, it will take Tom 30 miles / 6 miles per hour = 5 hours to return. Therefore, it will take him 5 hours to return.
+verifier:1 accs:1 
+*************************
+*************************
+86st data
+Q: Claire makes a three-egg omelet for breakfast every morning. How many dozen eggs does she eat in four weeks?
+GT : 7
+True: Assuming there are 7 days in a week, Claire eats a total of 21 eggs in a week (3 eggs per day). Therefore, in four weeks, she would eat 84 eggs (21 eggs/week * 4 weeks).
+
+To convert 84 eggs into dozens, we divide by 12:
+
+84 eggs / 12 = 7 dozens
+
+So, Claire eats 7 dozens of eggs in four weeks.
+True: In four weeks, there are 28 days. If Claire eats a three-egg omelet every morning, she would consume 3 eggs x 28 days = 84 eggs in total over four weeks.
+To convert this to dozens, we divide by 12 (since there are 12 eggs in a dozen): 84 eggs / 12 = 7 dozen eggs in four weeks.
+True: In four weeks, there are 28 days. If Claire eats a three-egg omelet every day, she would consume 3 eggs x 28 days = 84 eggs.
+
+84 eggs can be divided into 7 dozens (84 eggs / 12 eggs per dozen = 7 dozens).
+
+Therefore, Claire eats 7 dozen eggs in four weeks.
+verifier:1 accs:1 
+*************************
+*************************
+87st data
+Q: Jim watches TV for 2 hours, then decides to read a book in bed for 1 hour. He does this 3 times a week. How much time does he spend watching TV and reading books over 4 weeks?
+GT : 36
+True: In one week, Jim spends 2 hours watching TV and 1 hour reading a book, totaling 3 hours per day. Over 3 days, that's a total of 9 hours per week. 
+
+Over 4 weeks, Jim would spend 36 hours watching TV and reading books. (9 hours x 4 weeks = 36 hours).
+False: Jim spends a total of 6 hours watching TV and 3 hours reading books each week. 
+
+Over 4 weeks, he spends:
+6 hours x 4 weeks = 24 hours watching TV
+3 hours x 4 weeks = 12 hours reading books
+
+In total, Jim spends 24 + 12 = 36 hours watching TV and reading books over 4 weeks.
+True: Jim spends a total of 2 + 1 = 3 hours per session.
+Over 4 weeks, he does this 3 times a week, so it's 3 * 3 = 9 hours per week.
+Over 4 weeks, he spends 4 * 9 = 36 hours watching TV and reading books.
+36.0 - 4: Jim spends a total of 2 hours watching TV and 1 hour reading a book each time, which is a total of 3 hours per session. In 4 weeks, he spends a total of 36 hours. So, the equation would be: <code> 3X = 36  X = 36 / 3  X = 12 </code> The answer is 12.
+4.0 - 1: Jim spends a total of 4.0 hours watching TV and reading books over 4 weeks. He watches TV for 2 hours and reads for 1 hour, so in total, he spends 3 hours per session. Let's denote the number of times he does this in a week as X. Then we can set up the following equation: <code>3X = 4.0 X = 4.0 / 3 X = 1.33 </code> Since X represents the number of times per week, it cannot be a fraction. Therefore, Jim does this 1 time per week.
+verifier:1 accs:1 
+*************************
+*************************
+88st data
+Q: John runs 60 miles a week. He runs 3 days a week, the first day for 3 hours, and the next two days for half the time of the first day. What is his running speed?
+GT : 10
+False: First, calculate the total time John runs in a week:
+3 hours + 3/2 hours + 3/2 hours = 3 + 1.5 + 1.5 = 6 hours
+
+Next, convert the total hours to minutes:
+6 hours * 60 minutes/hour = 360 minutes
+
+Finally, calculate John's running speed:
+60 miles / 360 minutes = 0.1667 miles per minute
+Therefore, John's running speed is 0.1667 miles per minute.
+False: To find John's running speed, we first need to calculate how many miles he runs each day.
+
+On the first day, he runs for 3 hours, so he runs 60 / 3 = 20 miles on the first day.
+
+On the next two days, he runs for half the time of the first day, which is 3 / 2 = 1.5 hours.
+
+So, on each of the next two days, John runs 20 / 2 = 10 miles.
+
+Therefore, John runs a total of 20 + 10 + 10 = 40 miles in a week.
+
+To find his running speed, we divide the total miles run in a week by the total hours spent running in a week:
+40 miles / (3 + 1.5 + 1.5) hours = 40 miles / 6 hours = 6.67 miles per hour
+
+Therefore, John's running speed is 6.67 miles per hour.
+False: To calculate John's running speed, we need to find out how many miles he runs per hour on each of the three days.
+
+For the first day:
+3 hours * x miles/hour = 60 miles
+3x = 60
+x = 20 miles/hour
+
+For the next two days:
+1.5 hours * x miles/hour = 30 miles
+1.5x = 30
+x = 20 miles/hour
+
+Therefore, John's running speed is 20 miles per hour.
+0.1667 - 0: John runs 60 miles a week, which means he runs a total of 60 miles in X days. Let the first day be X hours.  On the first day, he runs X hours at a speed of 0.1667 miles per hour, so he covers X * 0.1667 = 0.1667X miles.  On the next two days, he runs half the time of the first day, so he runs X/2 hours each day. Therefore, on the next two days, he runs a total of 2 * (X/2) * 0.1667 = X * 0.1667 miles.  Adding all the distances he ran in the X days should equal 60 miles: ``` 0.1667X + X * 0.1667 = 60 0.3334X = 60 X = 60 / 0.3334 X ≈ 180  Therefore, the answer is X = 180.
+6.67 - 0: Let's break down the information given: - John runs 60 miles a week - He runs 'X' days a week - The first day he runs for 'X' hours - The next two days he runs for half the time of the first day - His running speed is 6.67 mph  Let's calculate the total time John runs in a week: First day: X hours Next two days: X/2 hours each Total time = X + X/2 + X/2 = 2X hours  Since speed = distance/time, we can calculate the total distance John runs in a week: Speed = 6.67 mph Distance = Speed * Time Distance = 6.67 * 2X Since he runs 60 miles a week, we can set up the equation: 60 = 6.67 * 2X 60 = 13.34X X = 60/13.34 X ≈ 4.49  Therefore, the answer for 'X' is approximately 4.49, which means John runs for about 4-5 days a week.
+20.0 - 0: Let's break down the problem:  - John runs 60 miles a week. - He runs 'X' days a week. - He runs the first day for 'X' hours. - He runs the next two days for half the time of the first day. - His running speed is 20.0 mph.  To find 'X', we first need to calculate the total time John runs in a week.  Let's say the first day he runs for 'X' hours, and the next two days he runs for '0.5X' hours each.  Total time = X + 0.5X + 0.5X = 2X  Now, we know his speed is 20.0 mph, and the total distance he runs in a week is 60 miles.  Distance = Speed * Time 60 = 20 * 2X 60 = 40X X = 60/40 X = 1.5  So, John runs for 1.5 days in a week.
+verifier:0 accs:0 
+*************************
+*************************
+89st data
+Q: Mike plays table tennis for 40 minutes. In the first 20 minutes, he scores 4 points. In the next 20 minutes, his score increases by 25%. What is his total score?
+GT : 9
+True: First, calculate the increase in the score by 25% in the next 20 minutes:
+25% of 4 points = 0.25 * 4 = 1 point increase
+
+So, Mike's score in the next 20 minutes is 4 + 1 = 5 points
+
+Therefore, Mike's total score after playing for 40 minutes is 4 + 5 = 9 points.
+False: In the first 20 minutes, Mike scores 4 points. 
+
+25% of 4 is 1, so his score increases by 1 point in the next 20 minutes.
+
+Therefore, his total score is 4 + 1 = 5 points.
+True: In the first 20 minutes, Mike scores 4 points.
+In the next 20 minutes, his score increases by 25%, which means his score increases by 0.25 * 4 = 1 point.
+So, in the next 20 minutes, Mike scores 4 + 1 = 5 points.
+Therefore, his total score is 4 + 5 = 9 points.
+9.0 - 2: Let's break it down: - Mike plays table tennis for X0 minutes. - In the first 20 minutes, he scores X points. - In the next 20 minutes, his score increases by 25%, which means he scores an additional 0.25 * X points. - His total score is 9.0 points. So, we can write the following equation: X + 0.25X = 9.0 1.25X = 9.0 X = 9.0 / 1.25 X = 7.2 The answer is 7.2.
+5.0 - 3: To find the answer for X, we first need to calculate the score Mike had after playing for 20 minutes. Let's assume this score is Y.  In the first 20 minutes, Mike scores X points. After playing for another 20 minutes, his score increases by 25%, so we can write the equation: Y = X + (0.25 * X)  Given that Y is also equal to 50 (since his total score is 50), we can set up the equation: X + (0.25 * X) = 50 1.25X = 50 X = 50 / 1.25 X = 40  Therefore, the answer for X is 40.
+verifier:0 accs:1 
+*************************
+*************************
+90st data
+Q: John bought red ties at twice the number of blue ties. The price of the red ties is 50% higher than that of the blue ties. He spent $200 buying blue ties at $40 each. How much did he spend on ties in total?
+GT : 800
+True: John bought a total of 5 blue ties and 10 red ties (twice the number of blue ties).
+
+He spent $200 on blue ties at $40 each, so he spent a total of 5*$40 = $200 on blue ties.
+
+The price of the red ties is 50% higher than that of the blue ties, so each red tie costs $40*(1+0.50) = $60.
+
+He bought 10 red ties, so he spent 10*$60 = $600 on red ties.
+
+In total, John spent $200 (blue ties) + $600 (red ties) = $800 on ties.
+True: First, we need to find out how many red ties John bought. Since he bought red ties at twice the number of blue ties, if he bought x blue ties, he bought 2x red ties.
+
+So, John bought 2x red ties and x blue ties. He spent $200 on x blue ties at $40 each, so he bought 200/40 = 5 blue ties.
+
+Therefore, he bought 2*5 = 10 red ties.
+
+The total cost for the blue ties is $40 x 5 = $200.
+
+Since the price of the red ties is 50% higher than that of the blue ties, each red tie costs $40 x 1.5 = $60.
+
+So, the total cost for the red ties is $60 x 10 = $600.
+
+Therefore, John spent $200 + $600 = $800 on ties in total.
+False: John bought 5 red ties (2 x 5 = 10) and 5 blue ties.
+The total cost of the blue ties is 5 x $40 = $200.
+The price of the red ties is $40 x 1.5 = $60 each.
+So, John spent 5 x $60 = $300 on red ties.
+Therefore, John spent a total of $200 + $300 = $500 on ties.
+800.0 - 2: John bought red ties at twice the number of blue ties, so let's say he bought X blue ties. The number of red ties would be 2X. The price of the red ties is 50% higher than the blue ties, so the price of the red ties would be 1.5X. He spent $200 buying blue ties at X each, so: X * 200 = 200 --> X = 200 / 200 = 1  He spent a total of $800 on ties, so we can calculate the total cost of red ties and blue ties: 2X * 1.5X + X * 200 = 800  3X^2 + 200X = 800  Substitute the value of X into the equation: 3(1)^2 + 200(1) = 800 3 + 200 = 800 203 = 800  Therefore, the price of the blue ties is $1.
+500.0 - 0: Let's first denote the number of blue ties as B and the number of red ties as R. It is given that R = 2B, so the total number of ties he bought is:  R + B = 3B  It is also given that the price of red ties is 50% higher than that of blue ties, so the total cost of buying blue ties is:  $200 = B * X  The total cost of buying ties is $500.0, so the total cost of buying red ties is:  $500.0 - $200 = $300.0 = R * 1.5X  Now, substitute R = 2B into the equation:  $300.0 = 2B * 1.5X $300.0 = 3B * X $100.0 = B * X  Thus, the price of each blue tie is $100.0.
+verifier:1 accs:1 
+*************************
+*************************
+91st data
+Q: Carlos is planting a lemon tree. Planting the tree costs $90. The tree produces 7 lemons per year, each selling for $1.50. Watering and fertilizing the tree costs $3 per year. How many years does it take for Carlos to start making money from this lemon tree?
+GT : 13
+False:  It will take Carlos 5 years to start making money from the lemon tree.
+
+Calculation:
+Cost to plant the tree: $90
+Cost to maintain per year: $3
+Cost to maintain for 5 years: $3/year * 5 years = $15
+Total cost up to year 5: $90 + $15 = $105
+
+Revenue from lemons per year: 7 lemons * $1.50/lemon = $10.50
+Profit per year: $10.50 - $3 = $7.50
+
+Total profit after 5 years: $7.50 * 5 years = $37.50
+
+After year 5, Carlos will start making money from the lemon tree.
+False: First, let's calculate the total cost of maintaining the lemon tree for each year.
+
+Annual cost = cost of planting + cost of watering and fertilizing
+Annual cost = $90 + $3
+Annual cost = $93
+
+Next, let's calculate the annual revenue from selling the lemons.
+
+Annual revenue = number of lemons produced per year x selling price per lemon
+Annual revenue = 7 lemons x $1.50
+Annual revenue = $10.50
+
+Now, let's calculate the profit earned each year.
+
+Profit per year = Annual revenue - Annual cost
+Profit per year = $10.50 - $93
+Profit per year = -$82.50
+
+Carlos will start making money from the lemon tree when he starts making a profit. With a profit of -$82.50 in the first year, it will take Carlos more than one year to start making money from the lemon tree.
+False: To find out how many years it takes for Carlos to start making money from the lemon tree, we need to calculate the total cost per year and the total revenue per year.
+
+Total cost per year = planting cost + watering/fertilizing cost = $90 + $3 = $93
+Total revenue per year = number of lemons produced x selling price per lemon = 7 x $1.50 = $10.50
+
+Now, we calculate the profit per year:
+Profit per year = Total revenue per year - Total cost per year = $10.50 - $93 = -$82.50 (loss per year)
+
+Since Carlos is making a loss of $82.50 per year, it will take him a while to start making money from the lemon tree. In this case, it will take approximately 11 years for Carlos to start making money from the lemon tree.
+5.0 - 0: The total cost of planting the lemon tree is $90. The annual profit from selling lemons is ($1.50 x 7) - $3 = $7.50 - $3 = $4.50. Since it takes Carlos 5 years to start making money, the total cost over 5 years is $90 + ($3 x 5) = $90 + $15 = $105. The total profit over 5 years is ($4.50 x 5) = $22.50. To break even, the total profit must equal the total cost, so: <code> 90 + 15 + X = 22.50  X = 22.50 - 105  X = -82.50 </code> Since a negative cost doesn't make sense in this context, it seems that there may be a mistake in the problem setup or in the calculations.
+82.5 - 0: The cost of planting the lemon tree is $90. Each year, Carlos earns $1.50 per lemon, but also spends $3 on watering and fertilizing. It takes 82.5 years for Carlos to start making money from the lemon tree. Let's calculate the total earnings from the lemon tree after 82.5 years:  Total earnings per year = (7 lemons * $1.50) - $3 Total earnings per year = $10.50 - $3 Total earnings per year = $7.50  Total earnings after 82.5 years = $7.50 * 82.5 Total earnings after 82.5 years = $618.75  Since Carlos starts making money after 82.5 years, the total earnings must be greater than the initial cost of planting the tree ($90). So, the answer is: <code>$618.75 > $90  X = 618.75 - 90  X = 528.75 </code> The answer is $528.75.
+11.0 - 0: The total cost of planting and maintaining the lemon tree for 11 years can be calculated as follows: <code> Total Cost = Planting Cost + (Cost Per Year * Number of Years)  Total Cost = 90 + (3 * 11)  Total Cost = 90 + 33  Total Cost = 123 </code>  The total revenue earned from selling lemons over 11 years can be calculated as follows: <code> Total Revenue = Number of Lemons Produced Per Year * Price Per Lemon * Number of Years  Total Revenue = 7 * 1.50 * 11  Total Revenue = 115.50 </code>  To start making a profit, the total revenue must exceed the total cost: <code> Total Revenue > Total Cost  115.50 > 123 </code>  Since the revenue does not exceed the cost, Carlos will not be making money from the lemon tree after 11 years.
+verifier:0 accs:0 
+*************************
+*************************
+92st data
+Q: A candle melts 2 centimeters for each hour it burns. If a candle burns from 1:00 PM to 5:00 PM, how many centimeters does it shorten?
+GT : 8
+False: The candle burns for 4 hours (from 1:00 PM to 5:00 PM), so it would melt 8 centimeters (2 cm/hour x 4 hours) in total.
+True: The candle burns for a total of 4 hours (1:00 PM to 5:00 PM), so it will have melted 2 cm/hr x 4 hrs = 8 cm in total.
+True: The candle burns for 4 hours (from 1:00 PM to 5:00 PM).
+
+Therefore, the candle shortens by 4 hours x 2 centimeters per hour = 8 centimeters in total.
+4.0 - 1: The candle burns for 4 hours (from 1 PM to 5 PM) and shortens by 4 centimeters. Since the candle melts 2 centimeters every hour, the total length it shortens by should be 4 centimeters. Therefore: <code> 4 hours * 2 cm/hour = 4 cm </code> Thus, the answer is 1.
+8.0 - 5: Let's set up the equation based on the information given: The candle burns for 4 hours (from 1:00 PM to 5:00 PM) and melts 2 centimeters per hour. So, the total length melted is 4 × 2 = 8 centimeters.  Since the candle shortens by 8 centimeters in total, we have: X + 8 = 8.  Solving for X: X = 8 - 8 X = 0.  Therefore, the answer is 0, and the candle started burning at 1:00 PM.
+verifier:1 accs:0 
+*************************
+*************************
+93st data
+Q: A company pays each employee $600 per month. The company has a policy that for employees who have worked for 5 years, the annual salary for each such employee can be increased by 10% of the initial salary. If Sylvia just completed 5 years at the company last December, what will her annual salary be after another three years?
+GT : 9360
+False: Sylvia's initial monthly salary is $600, and her initial annual salary is $600 * 12 = $7200.
+
+After completing 5 years at the company in December, Sylvia's salary will increase by 10% of her initial salary. Therefore, her new annual salary will be $7200 + ($7200 * 0.10) = $7920.
+
+After another three years, Sylvia's salary will remain the same since there is no mention of any further salary increases. Therefore, Sylvia's annual salary after another three years will still be $7920.
+False: First, let's calculate Sylvia's annual salary after completing 5 years at the company:
+
+Initial monthly salary = $600
+Annual salary = $600 * 12 = $7,200
+
+After completing 5 years at the company, Sylvia's salary will increase by 10%:
+New annual salary = $7,200 + ($7,200 * 0.10) = $7,920
+
+Now, for another three years, Sylvia's salary will remain the same at $7,920 per year. So, after another three years, Sylvia's annual salary will still be $7,920.
+False: Sylvia's initial monthly salary is $600.
+
+After completing 5 years at the company, her annual salary will be increased by 10% of her initial salary, which is $60 ($600 * 0.1).
+
+So, her new monthly salary after completing 5 years will be $660.
+
+After another three years, Sylvia's annual salary will increase by 10% of her initial salary, which is $60 again.
+
+Therefore, her new monthly salary after 8 years at the company will be $720 ($660 + $60). 
+
+Her annual salary after 8 years will be $720 * 12 = $8,640.
+7920.0 - 3: Sylvia's initial annual salary is $600 * 12 = $7200. After completing 5 years, her salary is increased by 'X'% of $7200. After another 3 years, her annual salary will be $7920.   Calculating the increase in salary after 5 years: 7200 * (1 + X/100) = 7920 1 + X/100 = 7920/7200 1 + X/100 = 1.1 X/100 = 0.1 X = 10  Therefore, 'X' is 10%.
+8640.0 - 0: Sylvia's initial annual salary is 12 * 600 = $7200. After completing 5 years at the company, her salary increased by X% of the initial salary. So, her salary became:  7200 + 7200 * (X/100) = 8640  Solving for X:  7200 * (1 + X/100) = 8640 1 + X/100 = 8640/7200 X/100 = 1.2 X = 120  The answer is 120%.
+verifier:0 accs:0 
+*************************
+*************************
+94st data
+Q: A new app was downloaded 60 times in the first month, three times that in the second month, but downloads decreased by 30% in the third month. How many times was the app downloaded over these three months?
+GT : 366
+True: First month: 60 downloads
+Second month: 60 x 3 = 180 downloads
+Third month: 180 - (30% of 180) = 180 - 54 = 126 downloads
+
+Total downloads over three months: 60 + 180 + 126 = 366 downloads
+True: First month: 60 downloads
+Second month: 3 * 60 = 180 downloads
+Third month: 180 - (30% of 180) = 126 downloads
+
+Total downloads over three months: 60 + 180 + 126 = 366 downloads
+
+Therefore, the app was downloaded 366 times over these three months.
+True: In the first month, the app was downloaded 60 times.
+In the second month, the app was downloaded 60 x 3 = 180 times.
+In the third month, the downloads decreased by 30%, so the app was downloaded 180 - (180 x 0.30) = 126 times.
+Therefore, over the three months, the app was downloaded a total of 60 + 180 + 126 = 366 times.
+verifier:1 accs:1 
+*************************
+*************************
+95st data
+Q: A raspberry bush produces 6 clusters of raspberries, each cluster containing 20 berries, and the entire raspberry bush also has 67 scattered raspberries. How many raspberries are there in total?
+GT : 187
+True: There are a total of 6 clusters x 20 raspberries per cluster = 120 raspberries in the clusters.
+Adding the scattered raspberries, the total number of raspberries on the bush is 120 + 67 = 187 raspberries.
+True: There are 6 clusters x 20 berries = 120 berries in the clusters.
+Adding the 67 scattered raspberries, there are a total of 120 + 67 = 187 raspberries in total.
+True: The total number of raspberries on the clusters is 6 clusters * 20 berries/cluster = 120 berries.
+Adding the scattered raspberries, we have a total of 120 berries + 67 berries = 187 raspberries in total.
+verifier:1 accs:1 
+*************************
+*************************
+96st data
+Q: Cara is downloading a 200 GB file. Normally, she can download 2 GB per minute, but after downloading 40%, Windows forces a restart to install updates, which takes 20 minutes. Then Cara has to restart the download from the beginning. How long does it take to download the file in total?
+GT : 160
+False: Initially, Cara would have to download 40% of the 200 GB file, which is 80 GB (200 GB * 0.4). At her normal download speed of 2 GB per minute, this would take her 40 minutes.
+
+However, after downloading 40% of the file, Cara has to restart her computer for updates, which takes 20 minutes. This means she would have to start the download from the beginning again, so she would have to download 200 GB total.
+
+So, the total time it takes for Cara to download the file would be:
+40 minutes (initial download) + 20 minutes (restart) + 100 minutes (remaining download) = 160 minutes or 2 hours and 40 minutes.
+False: First, we need to calculate how much of the file Cara can download before the restart. 40% of 200 GB is 80 GB. 
+Cara can download 2 GB per minute, so it will take her 80/2 = 40 minutes to download 80 GB.
+After downloading 40% of the file, Windows forces a restart which takes 20 minutes. 
+So far, Cara has spent 40 minutes downloading and 20 minutes for the restart, totaling 60 minutes. 
+Since she has to restart the download from the beginning, she will need another 200/2 = 100 minutes to finish downloading the file. 
+In total, Cara will spend 60 + 100 = 160 minutes to download the 200 GB file.
+False: First, we need to calculate how much of the file Cara downloads before the restart. 
+
+40% of 200 GB is 80 GB, so she downloads 80 GB before the restart. At a rate of 2 GB per minute, it takes her 80 GB / 2 GB per minute = 40 minutes to download 40%.
+
+After the restart, Cara has to start the download from the beginning. She will have to download the remaining 60% of the file, which is 120 GB. At a rate of 2 GB per minute, it will take her 120 GB / 2 GB per minute = 60 minutes to download the rest of the file.
+
+Adding the time before the restart (40 minutes) to the time after the restart (60 minutes), the total time it takes to download the file is 40 minutes + 60 minutes = 100 minutes. 
+
+Therefore, it will take Cara a total of 100 minutes to download the 200 GB file.
+40.0 - 0: Cara can normally download 2 GB per minute, so it would take her 200/2 = 100 minutes to download the file without any interruptions. After downloading X% of the file, she has to restart and it takes 20 minutes. So, she has already downloaded X% of the file in 100 - 20 = 80 minutes. Therefore, X% of the file corresponds to 80 minutes. This can be calculated as follows: X% * 100 = 80 X = 80 / 100 * 100 X = 80%  So, the answer is 80%.
+200.0 - 1: Let's break it down.   Cara normally downloads at a rate of 2 GB per minute, but after downloading X%, she has to restart the download, which takes 20 minutes.   So, the amount downloaded before the restart is (200 - 2X) GB.   After the restart, Cara has to download the entire 200 GB file again, and this takes a total of 200.0 minutes.   Therefore, the total time taken to download the file is the time taken before the restart (200 - 2X) minutes plus the time taken to download the entire file again (200 minutes).   This can be expressed as:   (200 - 2X) + 200 = 200.0  Solving for X:   200 - 2X + 200 = 200  400 - 2X = 200  -2X = -200  X = 100  So, the answer is X = 100%.
+verifier:0 accs:0 
+*************************
+*************************
+97st data
+Q: Lloyd has an egg farm. His chickens lay 252 eggs per day, and he sells eggs by the dozen for $2 each. How much money does Lloyd make from eggs in a week?
+GT : 294
+True: Lloyd sells 252 eggs per day, which equals 252 / 12 = 21 dozens of eggs per day.
+So, Lloyd makes 21 * $2 = $42 per day from selling eggs.
+Therefore, in a week (7 days), Lloyd makes $42 * 7 = $294 from selling eggs.
+True: In one week, Lloyd's chickens lay 252 eggs/day * 7 days = 1764 eggs.
+1764 eggs / 12 eggs/dozen = 147 dozens of eggs.
+147 dozens * $2/dozen = $294
+Lloyd makes $294 from selling eggs in a week.
+True: First, we need to calculate how many dozens of eggs Lloyd's chickens lay in a week. Since there are 7 days in a week, we multiply 252 (eggs per day) by 7 to get 1764 eggs per week.
+
+Next, we divide 1764 by 12 (the number of eggs in a dozen) to find out how many dozens of eggs Lloyd has. 1764 / 12 = 147 dozens of eggs.
+
+Finally, to find out how much money Lloyd makes in a week, we multiply the number of dozens of eggs (147) by the price per dozen ($2). 147 * $2 = $294.
+
+Therefore, Lloyd makes $294 from selling eggs in a week.
+verifier:1 accs:1 
+*************************
+*************************
+98st data
+Q: Melanie is a door-to-door saleswoman. She sells a third of her vacuum cleaners at the green house, sells 2 more at the red house, and sells half of the remaining cleaners at the orange house. If Melanie has 5 vacuum cleaners left, how many did she start with?
+GT : 18
+True: Let's work backwards to solve this problem.
+
+1. Melanie has 5 vacuum cleaners left after selling a portion at each house.
+2. She sells half of the remaining cleaners at the orange house, so she must have had 10 cleaners left before she arrived at the orange house (5 cleaners x 2 = 10 cleaners).
+3. Melanie sells 2 more cleaners at the red house, so she must have had 12 cleaners before she arrived at the red house (10 cleaners + 2 = 12 cleaners).
+4. She sells a third of her vacuum cleaners at the green house, so she must have had 18 cleaners before she arrived at the green house (12 cleaners x 3 = 18 cleaners).
+
+Therefore, Melanie started with 18 vacuum cleaners.
+False: Let's work backwards to find out how many vacuum cleaners Melanie started with. 
+
+If Melanie sells half of the remaining cleaners at the orange house and has 5 left, then she must have started with 5*2 = 10 cleaners after selling at the orange house. 
+
+Before that, she sold 2 more at the red house, meaning she had 10+2 = 12 cleaners before selling at the red house. 
+
+And before that, she sold a third at the green house, meaning she had 12*3 = 36 cleaners in total. 
+
+Therefore, Melanie started with 36 vacuum cleaners.
+False: Let's work backwards. 
+If Melanie has 5 vacuum cleaners left after selling at the green, red, and orange houses, this means she sold a total of 5 cleaners at these houses. 
+
+She sold a third at the green house, which means she started with 5 * 3 = 15 vacuum cleaners. 
+
+At the red house, she sold 2 more cleaners, which means she sold a total of 5 + 2 = 7 cleaners at the red house. 
+
+So, she must have started with 15 + 7 = 22 vacuum cleaners. 
+
+Therefore, Melanie started with 22 vacuum cleaners.
+18.0 - 5: Melanie started with 18 vacuum cleaners. She sells a third at the green house, which is 18 / 3 = 6 cleaners sold. Then she sells 2 more at the red house, so a total of 6 + 2 = 8 cleaners sold. She then sells half of the remaining cleaners at the orange house, which would leave her with 18 - 8 - (18 - 8) / 2 = X cleaners left.   <code>X = 18 - 8 - (18 - 8) / 2 X = 10 - 5 X = 5 </code>  Therefore, the answer is 5.
+36.0 - 1: Melanie started with 36 vacuum cleaners. She sold a third at the green house, which is 36/3 = 12 cleaners. Then she sold 2 more at the red house, so she has 36 - 12 - 2 = 22 cleaners. Then she sold half of the remaining cleaners at the orange house, which is 22/2 = 11 cleaners. So, the value of X is 11. Therefore, the answer is X = 11.
+22.0 - 1: Melanie started with 22 vacuum cleaners. She sold a third of them at the green house, which is 22 / 3 = 7 vacuum cleaners. Then she sold 2 more at the red house, leaving her with 22 - 7 - 2 = 13 vacuum cleaners. She sold half of the remaining cleaners at the orange house, so she sold 13 / 2 = 6.5 cleaners. Since she can't sell half a cleaner, we know she sold 6 more, leaving her with X vacuum cleaners. <code> X = 13 - 6  X = 7 </code> The answer is 7.
+verifier:1 accs:1 
+*************************
+*************************
+99st data
+Q: Gant is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. The first person says there are 80 beans. The second person's guess is half the first person's guess plus 20. The third person's guess is 25% more than the first person's guess. What is the average of their guesses?
+GT : 80
+True: Let's break down the guesses:
+
+First person: 80 beans
+Second person: (80/2) + 20 = 40 + 20 = 60 beans
+Third person: 80 + 0.25 * 80 = 80 + 20 = 100 beans
+
+To find the average of their guesses, we add up all the guesses and divide by 3 (the number of friends):
+
+(80 + 60 + 100) / 3 = 240 / 3 = 80
+
+Therefore, the average of their guesses is 80 beans.
+True: Let's find the guesses of each person first:
+
+First person: 80 beans
+Second person: (80/2) + 20 = 60 beans
+Third person: 80 + 25% of 80 = 100 beans
+
+Now, let's calculate the average of their guesses:
+(80 + 60 + 100) / 3 = 240 / 3 = 80
+
+Therefore, the average of their guesses is 80 beans.
+True: Let's break it down:
+
+First person: 80 beans
+Second person: (80/2) + 20 = 40 + 20 = 60 beans
+Third person: 80 + (0.25*80) = 80 + 20 = 100 beans
+
+To find the average, add the three guesses together and divide by 3:
+(80 + 60 + 100) / 3 = 240 / 3 = 80
+
+Therefore, the average of their guesses is 80 beans.
+verifier:1 accs:1 
+*************************
+*************************
+100st data
+Q: In a class of 200 fifth graders, 2/5 are boys, and 2/3 of the girls are Girl Scouts. How many girls are not Girl Scouts?
+GT : 40
+True: First, let's calculate how many boys are in the class:
+2/5 of 200 = (2/5) * 200 = 80 boys
+
+Next, let's calculate how many girls are in the class:
+200 - 80 = 120 girls
+
+Now, let's calculate how many of the girls are Girl Scouts:
+2/3 of 120 = (2/3) * 120 = 80 girls are Girl Scouts
+
+Finally, let's calculate how many girls are not Girl Scouts:
+120 - 80 = 40 girls are not Girl Scouts.
+True: First, let's find the number of boys in the class:
+2/5 of 200 students = (2/5) * 200 = 80 boys
+
+Next, let's find the number of girls in the class:
+Total students in the class = 200
+Number of boys = 80
+Number of girls = Total students - Number of boys
+Number of girls = 200 - 80 = 120 girls
+
+Now, let's find out how many girls are Girl Scouts:
+2/3 of girls = (2/3) * 120 = 80 girls are Girl Scouts
+
+So, the number of girls who are not Girl Scouts:
+Total number of girls = 120
+Number of girls who are Girl Scouts = 80
+Number of girls who are not Girl Scouts = Total number of girls - Number of girls who are Girl Scouts
+Number of girls who are not Girl Scouts = 120 - 80 = 40 girls
+
+Therefore, 40 girls are not Girl Scouts in the class.
+True: First, let's find out how many boys are in the class:
+200 * 2/5 = 80 boys
+
+Next, let's find out how many girls are in the class:
+200 - 80 = 120 girls
+
+Now, let's find out how many girls are Girl Scouts:
+120 * 2/3 = 80 girls are Girl Scouts
+
+Finally, let's find out how many girls are not Girl Scouts:
+120 - 80 = 40 girls are not Girl Scouts.
+verifier:1 accs:1 
+*************************
+accuracy : 71.0
+accs:0.64  self_consistency:0  Top_N_acc:0
