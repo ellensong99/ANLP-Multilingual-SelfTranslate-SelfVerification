@@ -1,6 +1,6 @@
-## ANLP-Multilingual-SelfTranslate-SelfVerification
+# ANLP-Multilingual-SelfTranslate-SelfVerification
 
-# References and Acknowledgments
+## References and Acknowledgments
 
 Some portions of the code and conceptual framework used in this project have been informed by the following research paper:
 
